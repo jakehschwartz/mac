@@ -1,0 +1,65 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/versions"
+tap "sinclairtarget/wst"
+brew "ammonite-repl"
+brew "awscli"
+brew "bat"
+brew "blueutil"
+brew "elasticsearch@5.6"
+brew "git"
+brew "giter8"
+brew "gnutls"
+brew "httpie"
+brew "hugo"
+brew "jq"
+brew "mill"
+brew "mongodb"
+brew "mysql"
+brew "pkg-config"
+brew "postgresql"
+brew "redis"
+brew "rename"
+brew "sbt"
+brew "shpotify"
+brew "thefuck"
+brew "tree"
+brew "unrar"
+brew "vim"
+brew "sinclairtarget/wst/um"
+cask "box-sync"
+cask "cleanmymac"
+cask "font-fira-code"
+cask "google-backup-and-sync"
+cask "google-chrome"
+cask "hipchat"
+cask "iterm2"
+cask "java8"
+cask "megasync"
+cask "mongodb-compass-beta"
+cask "postman"
+cask "qlmarkdown"
+cask "qlvideo"
+cask "remembear"
+cask "slack"
+cask "spotify"
+cask "the-unarchiver"
+cask "tunnelblick"
+cask "virtualbox"
+cask "vlc"
+mas "Agenda", id: 1287445660
+mas "GarageBand", id: 682658836
+mas "GIPHY CAPTURE", id: 668208984
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pixelmator", id: 407963104
+mas "Xcode", id: 497799835
+
+update
+doctor

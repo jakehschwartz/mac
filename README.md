@@ -1,2 +1,2 @@
-# mac
-Setup for new macOS (updated for 10.13.6)
+# dotfiles
+Personal dotfiles for MacOS with configuration for vim, bash, git and more!

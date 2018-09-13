@@ -1,0 +1,5 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Unindexed maven repositories for SBT detection" displayType="NONE" shouldLog="false" />
+  </component>
+</application>

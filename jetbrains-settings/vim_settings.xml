@@ -1,0 +1,1638 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/service/BroadcastDMAService.scala" timestamp="1472057421760">
+        <mark key="[" line="85" column="138" />
+        <mark key="]" line="86" column="26" />
+        <mark key="^" line="86" column="26" />
+        <mark key="." line="86" column="26" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/assembly.sbt" timestamp="1475774950707">
+        <mark key="[" line="8" column="45" />
+        <mark key="]" line="9" column="66" />
+        <mark key="." line="9" column="66" />
+        <mark key="^" line="9" column="66" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/controller/NewsroomController.scala" timestamp="1475528312457">
+        <mark key="[" line="70" column="72" />
+        <mark key="]" line="70" column="82" />
+        <mark key="." line="70" column="82" />
+        <mark key="^" line="70" column="82" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-issues/pom.xml" timestamp="1478208734075">
+        <mark key="[" line="8" column="16" />
+        <mark key="]" line="8" column="17" />
+        <mark key="^" line="8" column="27" />
+        <mark key="." line="8" column="17" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-index-manager/build.sbt" timestamp="1477690654126">
+        <mark key="[" line="4" column="14" />
+        <mark key="]" line="4" column="15" />
+        <mark key="." line="4" column="15" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-issues/src/main/java/com/zignallabs/elasticZignal/script/AbstractIssueScript.java" timestamp="1471890708439">
+        <mark key="[" line="10" column="42" />
+        <mark key="]" line="11" column="13" />
+        <mark key="^" line="11" column="13" />
+        <mark key="." line="11" column="13" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/hbc/hbc-core/pom.xml" timestamp="1477090965725">
+        <mark key="[" line="5" column="15" />
+        <mark key="]" line="5" column="16" />
+        <mark key="." line="5" column="16" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/config.scala" timestamp="1479508935484">
+        <mark key="[" line="66" column="54" />
+        <mark key="]" line="66" column="54" />
+        <mark key="^" line="66" column="87" />
+        <mark key="." line="66" column="54" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/SentimentTimeSeries.scala" timestamp="1472088552007">
+        <mark key="[" line="133" column="120" />
+        <mark key="]" line="133" column="129" />
+        <mark key="." line="133" column="129" />
+        <mark key="^" line="133" column="129" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/hbc/hbc-core/src/test/java/com/twitter/hbc/EndpointTest.java" timestamp="1473988807412">
+        <mark key="[" line="123" column="103" />
+        <mark key="]" line="123" column="103" />
+        <mark key="." line="123" column="103" />
+        <mark key="^" line="123" column="103" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-percolation-manager/src/main/scala/com/zignallabs/checker/FilterChecks.scala" timestamp="1472054704552">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="^" line="28" column="30" />
+        <mark key="." line="9" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/TrendingIssuesOptimized.scala" timestamp="1476919519579">
+        <mark key="[" line="116" column="104" />
+        <mark key="]" line="116" column="113" />
+        <mark key="^" line="116" column="113" />
+        <mark key="." line="116" column="113" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipRuleManager/src/main/resources/application.conf" timestamp="1474381240665">
+        <mark key="[" line="8" column="80" />
+        <mark key="]" line="8" column="80" />
+        <mark key="^" line="8" column="80" />
+        <mark key="." line="8" column="80" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/gnip/GnipSpout.scala" timestamp="1477335093754">
+        <mark key="[" line="29" column="91" />
+        <mark key="]" line="29" column="91" />
+        <mark key="." line="29" column="91" />
+        <mark key="^" line="29" column="100" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/test/scala/com/zignallabs/elasticserver/service/NewsroomServiceUnitTest.scala" timestamp="1475618005364">
+        <mark key="[" line="149" column="66" />
+        <mark key="]" line="149" column="66" />
+        <mark key="." line="149" column="66" />
+        <mark key="^" line="149" column="39" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/README" timestamp="1473281926111">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="51" />
+        <mark key="^" line="1" column="51" />
+        <mark key="." line="1" column="51" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/lucene/tagger.scala" timestamp="1474103282465">
+        <mark key="[" line="25" column="28" />
+        <mark key="]" line="25" column="31" />
+        <mark key="^" line="25" column="31" />
+        <mark key="." line="25" column="31" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/wabisabi/src/test/scala/com/zignallabs/wabisabi/ClientSpec.scala" timestamp="1470447836943">
+        <mark key="[" line="115" column="80" />
+        <mark key="]" line="115" column="80" />
+        <mark key="." line="115" column="80" />
+        <mark key="^" line="115" column="80" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/zqlizer/src/main/scala/com/zignallabs/zqlizer/api/Query.scala" timestamp="1471097342534">
+        <mark key="[" line="99" column="257" />
+        <mark key="]" line="99" column="256" />
+        <mark key="." line="99" column="256" />
+        <mark key="^" line="99" column="256" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/build.sbt" timestamp="1479144421094">
+        <mark key="[" line="4" column="17" />
+        <mark key="]" line="4" column="18" />
+        <mark key="." line="4" column="18" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/service/zrank/ZRankTimeSeriesService.scala" timestamp="1475526368789">
+        <mark key="[" line="83" column="0" />
+        <mark key="]" line="83" column="0" />
+        <mark key="." line="83" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/Alert.scala" timestamp="1470869419174">
+        <mark key="[" line="58" column="26" />
+        <mark key="]" line="49" column="42" />
+        <mark key="." line="49" column="42" />
+        <mark key="^" line="49" column="42" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/migrations/src/main/scala/com/zignallabs/sfdfmigration/InfluencePreMigration.scala" timestamp="1471402932147">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+        <mark key="^" line="42" column="1" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/build.sbt" timestamp="1479505502293">
+        <mark key="[" line="2" column="38" />
+        <mark key="]" line="2" column="39" />
+        <mark key="." line="2" column="39" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-percolation-manager/src/main/scala/com/zignallabs/elasticindexer/DailyIndexSetBuilderCode.scala" timestamp="1472055625108">
+        <mark key="[" line="22" column="20" />
+        <mark key="]" line="22" column="26" />
+        <mark key="." line="22" column="26" />
+        <mark key="^" line="22" column="26" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/mongo/Candidate.scala" timestamp="1475621503359">
+        <mark key="[" line="23" column="51" />
+        <mark key="]" line="23" column="48" />
+        <mark key="." line="23" column="48" />
+        <mark key="^" line="23" column="48" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/es/ESBatchRegister.scala" timestamp="1475871666881">
+        <mark key="[" line="15" column="69" />
+        <mark key="]" line="78" column="29" />
+        <mark key="^" line="103" column="50" />
+        <mark key="." line="78" column="29" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-issues/src/main/resources/es-plugin.properties" timestamp="1478208603927">
+        <mark key="[" line="1" column="10" />
+        <mark key="]" line="1" column="11" />
+        <mark key="." line="1" column="11" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/resources/application_local.conf" timestamp="1478018835170">
+        <mark key="[" line="55" column="0" />
+        <mark key="]" line="55" column="0" />
+        <mark key="." line="55" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/random/src/main/scala/com/schwartz/random/JsonSorter.scala" timestamp="1479756580769">
+        <mark key="[" line="10" column="47" />
+        <mark key="]" line="10" column="52" />
+        <mark key="." line="10" column="52" />
+        <mark key="^" line="10" column="52" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/controllers/TriggersController.scala" timestamp="1470961798457">
+        <mark key="[" line="18" column="11" />
+        <mark key="]" line="18" column="11" />
+        <mark key="^" line="19" column="29" />
+        <mark key="." line="18" column="11" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/filter/LegacyStatsFilter.scala" timestamp="1471913582405">
+        <mark key="[" line="22" column="9" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+        <mark key="^" line="31" column="63" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/test/scala/com/zignallabs/elasticserver/service/ProfileStatsServiceUnitTest.scala" timestamp="1471905302175">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="0" />
+        <mark key="." line="5" column="0" />
+        <mark key="^" line="15" column="55" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/fieldOverride/FieldOverrideESWriterBolt.scala" timestamp="1471372550707">
+        <mark key="[" line="116" column="117" />
+        <mark key="]" line="117" column="7" />
+        <mark key="^" line="117" column="7" />
+        <mark key="." line="117" column="7" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/hbc/hbc-example/pom.xml" timestamp="1477090963605">
+        <mark key="[" line="5" column="15" />
+        <mark key="]" line="5" column="16" />
+        <mark key="." line="5" column="16" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/ParseTools.scala" timestamp="1477080959488">
+        <mark key="[" line="54" column="0" />
+        <mark key="]" line="54" column="0" />
+        <mark key="." line="54" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/models/Alert.scala" timestamp="1470859458657">
+        <mark key="[" line="29" column="0" />
+        <mark key="]" line="29" column="0" />
+        <mark key="." line="29" column="0" />
+        <mark key="^" line="16" column="3" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/geo/GeoLookupBolt.scala" timestamp="1473735040482">
+        <mark key="[" line="130" column="27" />
+        <mark key="]" line="130" column="26" />
+        <mark key="^" line="130" column="26" />
+        <mark key="." line="130" column="26" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/swagger-finatra/src/main/scala/com/zignallabs/swagger/finatra/FinatraOperation.scala" timestamp="1474096603250">
+        <mark key="[" line="7" column="40" />
+        <mark key="]" line="9" column="15" />
+        <mark key="." line="9" column="15" />
+        <mark key="^" line="9" column="15" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/SFDFMigration/project/build.properties" timestamp="1471391403389">
+        <mark key="[" line="0" column="20" />
+        <mark key="]" line="0" column="20" />
+        <mark key="^" line="0" column="20" />
+        <mark key="." line="0" column="20" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/datasift/DSZignalExtractor.scala" timestamp="1474103933308">
+        <mark key="[" line="67" column="46" />
+        <mark key="]" line="67" column="52" />
+        <mark key="^" line="67" column="52" />
+        <mark key="." line="67" column="52" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/boardreader/BRVideosSolrFieldMapper.scala" timestamp="1470173465636">
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="36" column="0" />
+        <mark key="." line="36" column="0" />
+        <mark key="^" line="30" column="50" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/aircsv/src/main/scala/com/zignallabs/aircsv/TagAvg.scala" timestamp="1470337019074">
+        <mark key="[" line="61" column="48" />
+        <mark key="]" line="61" column="48" />
+        <mark key="." line="61" column="48" />
+        <mark key="^" line="49" column="50" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/src/main/scala/code/rest/SearchCrud.scala" timestamp="1479504081243">
+        <mark key="[" line="99" column="0" />
+        <mark key="]" line="99" column="0" />
+        <mark key="^" line="140" column="6" />
+        <mark key="." line="99" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipRuleManager/src/test/scala/com/zignallabs/gnip/RuleClientTest.scala" timestamp="1476743795709">
+        <mark key="[" line="131" column="43" />
+        <mark key="]" line="131" column="44" />
+        <mark key="^" line="131" column="43" />
+        <mark key="." line="131" column="44" />
+      </file>
+      <file name="$USER_HOME$/Development/random/src/main/scala/com/schwartz/random/ExportParser.scala" timestamp="1479272995567">
+        <mark key="[" line="15" column="45" />
+        <mark key="]" line="17" column="0" />
+        <mark key="^" line="15" column="15" />
+        <mark key="." line="17" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/gnip/GnipSolrFieldMapper.scala" timestamp="1474103982715">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="." line="12" column="0" />
+        <mark key="^" line="303" column="20" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/src/main/scala/code/rest/TranslationController.scala" timestamp="1473190318064">
+        <mark key="[" line="16" column="16" />
+        <mark key="]" line="26" column="105" />
+        <mark key="." line="26" column="105" />
+        <mark key="^" line="26" column="105" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipStreaming/src/main/scala/com/zignallabs/gnip/GnipStreamingTop2.scala" timestamp="1473446619857">
+        <mark key="[" line="52" column="34" />
+        <mark key="]" line="52" column="34" />
+        <mark key="^" line="108" column="0" />
+        <mark key="." line="52" column="34" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/service/GeoService.scala" timestamp="1470357667644">
+        <mark key="[" line="84" column="10" />
+        <mark key="]" line="84" column="12" />
+        <mark key="^" line="67" column="40" />
+        <mark key="." line="84" column="10" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-percolation-manager/build.sbt" timestamp="1471999459758">
+        <mark key="[" line="27" column="43" />
+        <mark key="]" line="27" column="43" />
+        <mark key="^" line="19" column="65" />
+        <mark key="." line="27" column="43" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/controllers/RorschachController.scala" timestamp="1470887608988">
+        <mark key="[" line="13" column="65" />
+        <mark key="]" line="13" column="77" />
+        <mark key="^" line="13" column="77" />
+        <mark key="." line="13" column="77" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/search/AsyncPercolator.scala" timestamp="1478215326987">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
+        <mark key="^" line="7" column="50" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/search/Elasticsearch.scala" timestamp="1479143696496">
+        <mark key="[" line="131" column="22" />
+        <mark key="]" line="131" column="41" />
+        <mark key="^" line="131" column="41" />
+        <mark key="." line="131" column="41" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/dal-tools/src/main/scala/com/zignallabs/dalTools/solr/ShardList.scala" timestamp="1470151989115">
+        <mark key="[" line="17" column="42" />
+        <mark key="]" line="17" column="49" />
+        <mark key="." line="17" column="49" />
+        <mark key="^" line="17" column="49" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-issues/src/test/java/com/zignallabs/elasticZignal/script/IssueTagScriptSentimentTests.java" timestamp="1473286824110">
+        <mark key="[" line="21" column="28" />
+        <mark key="]" line="21" column="27" />
+        <mark key="." line="21" column="27" />
+        <mark key="^" line="21" column="27" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/search/elasticsearchDSL.scala" timestamp="1475619726227">
+        <mark key="[" line="71" column="45" />
+        <mark key="]" line="71" column="45" />
+        <mark key="." line="71" column="45" />
+        <mark key="^" line="71" column="45" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/HCommon/src/test/scala/com/zignallabs/zql/v2/transform/NewsroomTest.scala" timestamp="1471301262549">
+        <mark key="[" line="139" column="39" />
+        <mark key="]" line="139" column="39" />
+        <mark key="." line="139" column="39" />
+        <mark key="^" line="139" column="27" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/src/main/scala/code/rest/TranslateController.scala" timestamp="1478558960781">
+        <mark key="[" line="29" column="6" />
+        <mark key="]" line="32" column="6" />
+        <mark key="." line="32" column="6" />
+        <mark key="^" line="32" column="6" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/migrations/src/main/scala/com/zignallabs/sfdfmigration/DynamoDelete.scala" timestamp="1479157117106">
+        <mark key="[" line="8" column="19" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_9" timestamp="1472155728093">
+        <mark key="[" line="4" column="5" />
+        <mark key="]" line="0" column="6" />
+        <mark key="." line="0" column="6" />
+        <mark key="^" line="0" column="6" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipStreaming/src/test/scala/com/zignallabs/gnip/GnipHosebirdClientBuilderTest.scala" timestamp="1473438033817">
+        <mark key="[" line="20" column="53" />
+        <mark key="]" line="20" column="53" />
+        <mark key="." line="20" column="53" />
+        <mark key="^" line="20" column="59" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/lambda-tools/src/main/scala/com/zignallabs/lambdatools/tools/Web.scala" timestamp="1474482793763">
+        <mark key="[" line="46" column="66" />
+        <mark key="]" line="46" column="61" />
+        <mark key="." line="46" column="61" />
+        <mark key="^" line="46" column="61" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/ZignalUDM.scala" timestamp="1474102952767">
+        <mark key="[" line="31" column="32" />
+        <mark key="]" line="31" column="51" />
+        <mark key="^" line="31" column="51" />
+        <mark key="." line="31" column="51" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/http-fork/src/main/scala/com/zignallabs/httpfork/util/SprayClient.scala" timestamp="1476038025980">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-issues/src/test/java/com/zignallabs/elasticZignal/script/ZScoreTests.java" timestamp="1476236857491">
+        <mark key="[" line="104" column="69" />
+        <mark key="]" line="31" column="19" />
+        <mark key="." line="31" column="19" />
+        <mark key="^" line="31" column="19" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/test/scala/com/zignallabs/realtime/es/UDMBoltTest.scala" timestamp="1479424367710">
+        <mark key="[" line="79" column="0" />
+        <mark key="]" line="79" column="0" />
+        <mark key="^" line="78" column="19" />
+        <mark key="." line="79" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/authorsByMention.scala" timestamp="1477677975011">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/daos/MongoDAO.scala" timestamp="1470775229424">
+        <mark key="[" line="6" column="4" />
+        <mark key="]" line="10" column="1" />
+        <mark key="^" line="10" column="1" />
+        <mark key="." line="10" column="1" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/silversurfer/build.sbt" timestamp="1479414783121">
+        <mark key="[" line="4" column="14" />
+        <mark key="]" line="4" column="15" />
+        <mark key="." line="4" column="15" />
+        <mark key="^" line="4" column="16" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/controller/VersionController.scala" timestamp="1478555874872">
+        <mark key="[" line="26" column="0" />
+        <mark key="]" line="26" column="0" />
+        <mark key="." line="26" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/hbc/pom.xml" timestamp="1477090763649">
+        <mark key="[" line="7" column="15" />
+        <mark key="]" line="7" column="16" />
+        <mark key="." line="7" column="16" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/migrations/src/main/scala/com/zignallabs/sfdfmigration/S3SplitES.scala" timestamp="1478625989965">
+        <mark key="[" line="21" column="89" />
+        <mark key="]" line="21" column="84" />
+        <mark key="^" line="21" column="84" />
+        <mark key="." line="21" column="84" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipStreaming/src/main/scala/com/zignallabs/gnip/GnipHosebirdClientBuilder.scala" timestamp="1473447897577">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="." line="12" column="0" />
+        <mark key="^" line="2" column="27" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/hbc/hbc-twitter4j/pom.xml" timestamp="1477090961437">
+        <mark key="[" line="5" column="17" />
+        <mark key="]" line="5" column="18" />
+        <mark key="." line="5" column="18" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/spiderman/deploy.sh" timestamp="1469737374970">
+        <mark key="[" line="15" column="394" />
+        <mark key="]" line="8" column="9" />
+        <mark key="." line="8" column="9" />
+        <mark key="^" line="8" column="9" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/fieldOverride/FieldOverrideUpdaterBolt.scala" timestamp="1474643570742">
+        <mark key="[" line="215" column="51" />
+        <mark key="]" line="215" column="50" />
+        <mark key="^" line="215" column="50" />
+        <mark key="." line="215" column="50" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-issues/src/main/java/com/zignallabs/elasticZignal/script/IssueTagScriptWithStopwords.java" timestamp="1476383860242">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="16" column="0" />
+        <mark key="^" line="43" column="39" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/test/scala/com/zignallabs/realtime/geo/GeoLookupTest.scala" timestamp="1473959213240">
+        <mark key="[" line="34" column="108" />
+        <mark key="]" line="34" column="109" />
+        <mark key="." line="34" column="109" />
+        <mark key="^" line="3" column="54" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/test/scala/com/zignallabs/realtime/geo/GeoLookupBoltTest.scala" timestamp="1473735579010">
+        <mark key="[" line="23" column="16" />
+        <mark key="]" line="35" column="7" />
+        <mark key="." line="35" column="7" />
+        <mark key="^" line="35" column="7" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/tagger/ZignalHeaderBolt.scala" timestamp="1479423806550">
+        <mark key="[" line="50" column="0" />
+        <mark key="]" line="50" column="0" />
+        <mark key="." line="50" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipStreaming/build.sbt" timestamp="1473451142099">
+        <mark key="[" line="6" column="15" />
+        <mark key="]" line="22" column="46" />
+        <mark key="." line="22" column="46" />
+        <mark key="^" line="22" column="46" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/dao/MentionsDAO.scala" timestamp="1475615506104">
+        <mark key="[" line="28" column="113" />
+        <mark key="]" line="28" column="113" />
+        <mark key="^" line="23" column="58" />
+        <mark key="." line="28" column="113" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/controller/GeoController.scala" timestamp="1470357148356">
+        <mark key="[" line="35" column="66" />
+        <mark key="]" line="35" column="66" />
+        <mark key="." line="35" column="66" />
+        <mark key="^" line="35" column="66" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/services/CrudService.scala" timestamp="1470854079989">
+        <mark key="[" line="9" column="23" />
+        <mark key="]" line="9" column="31" />
+        <mark key="." line="9" column="31" />
+        <mark key="^" line="9" column="31" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/test/scala/com/zignallabs/rorschach/controllers/AlertControllerFeatureTest.scala" timestamp="1470859519183">
+        <mark key="[" line="13" column="5" />
+        <mark key="]" line="13" column="5" />
+        <mark key="^" line="13" column="8" />
+        <mark key="." line="13" column="5" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/migrations/src/main/scala/com/zignallabs/sfdfmigration/IssuesPostMigration.scala" timestamp="1472067775933">
+        <mark key="[" line="8" column="29" />
+        <mark key="]" line="8" column="25" />
+        <mark key="^" line="8" column="25" />
+        <mark key="." line="8" column="25" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/http-fork/src/main/scala/com/zignallabs/httpfork/util/sprayHelper.scala" timestamp="1476038523370">
+        <mark key="[" line="28" column="32" />
+        <mark key="]" line="28" column="31" />
+        <mark key="." line="28" column="31" />
+        <mark key="^" line="28" column="31" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/controllers/AlertsController.scala" timestamp="1470957714225">
+        <mark key="[" line="21" column="46" />
+        <mark key="]" line="21" column="46" />
+        <mark key="." line="21" column="46" />
+        <mark key="^" line="21" column="47" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/dal-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/gnip/GnipSolrFieldMapper.scala" timestamp="1469666329927">
+        <mark key="[" line="303" column="17" />
+        <mark key="]" line="303" column="20" />
+        <mark key="." line="303" column="20" />
+        <mark key="^" line="303" column="20" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-percolation-manager/src/main/scala/com/zignallabs/elasticindexer/DailyIndex.scala" timestamp="1472055593001">
+        <mark key="[" line="16" column="18" />
+        <mark key="]" line="16" column="24" />
+        <mark key="." line="16" column="24" />
+        <mark key="^" line="16" column="24" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/gnip/GnipZignalExtractor.scala" timestamp="1474104018061">
+        <mark key="[" line="74" column="13" />
+        <mark key="]" line="74" column="51" />
+        <mark key="^" line="74" column="51" />
+        <mark key="." line="74" column="51" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/deploy/prod/decahose.sh" timestamp="1477952919547">
+        <mark key="[" line="10" column="18" />
+        <mark key="]" line="10" column="16" />
+        <mark key="." line="10" column="16" />
+        <mark key="^" line="10" column="16" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/wabisabi/build.sbt" timestamp="1471218205261">
+        <mark key="[" line="4" column="18" />
+        <mark key="]" line="4" column="18" />
+        <mark key="^" line="4" column="20" />
+        <mark key="." line="4" column="18" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/src/main/scala/code/rest/profile/UpdateProfile.scala" timestamp="1478729104628">
+        <mark key="[" line="86" column="0" />
+        <mark key="]" line="86" column="0" />
+        <mark key="." line="86" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/models/InternalAlert.scala" timestamp="1470857576210">
+        <mark key="[" line="9" column="11" />
+        <mark key="]" line="9" column="25" />
+        <mark key="^" line="9" column="25" />
+        <mark key="." line="9" column="25" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/models/api.scala" timestamp="1475617863065">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-index-manager/src/main/resources/solrtemplate.json" timestamp="1478294855752">
+        <mark key="[" line="23" column="24" />
+        <mark key="]" line="0" column="3" />
+        <mark key="^" line="0" column="3" />
+        <mark key="." line="0" column="3" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/Config.scala" timestamp="1471097895630">
+        <mark key="[" line="14" column="62" />
+        <mark key="]" line="14" column="62" />
+        <mark key="^" line="14" column="12" />
+        <mark key="." line="14" column="62" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/rtanalytics/RetweetTable.scala" timestamp="1478203918816">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="." line="12" column="0" />
+        <mark key="^" line="142" column="65" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/src/main/scala/code/rest/AlertCrud.scala" timestamp="1471097484384">
+        <mark key="[" line="84" column="27" />
+        <mark key="]" line="25" column="28" />
+        <mark key="." line="25" column="28" />
+        <mark key="^" line="25" column="28" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/deploy/staging.sh" timestamp="1479340957078">
+        <mark key="[" line="7" column="20" />
+        <mark key="]" line="7" column="21" />
+        <mark key="." line="7" column="21" />
+        <mark key="^" line="2" column="38" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-issues/src/main/java/com/zignallabs/elasticZignal/script/IssueTagScript.java" timestamp="1473287081792">
+        <mark key="[" line="43" column="44" />
+        <mark key="]" line="229" column="0" />
+        <mark key="^" line="43" column="55" />
+        <mark key="." line="229" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/geo/geonames.scala" timestamp="1473959348142">
+        <mark key="[" line="69" column="33" />
+        <mark key="]" line="71" column="9" />
+        <mark key="." line="71" column="9" />
+        <mark key="^" line="71" column="9" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/dal-tools/src/main/scala/NaiveDynamoAuthorsTests.scala" timestamp="1470151553745">
+        <mark key="[" line="24" column="20" />
+        <mark key="]" line="24" column="27" />
+        <mark key="." line="24" column="27" />
+        <mark key="^" line="24" column="27" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-percolation-manager/src/main/scala/com/zignallabs/elasticindexer/DailyIndexRemover.scala" timestamp="1472055604729">
+        <mark key="[" line="25" column="20" />
+        <mark key="]" line="25" column="26" />
+        <mark key="." line="25" column="26" />
+        <mark key="^" line="25" column="26" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/wabisabi/src/main/scala/com/zignallabs/wabisabi/Client.scala" timestamp="1474098441134">
+        <mark key="[" line="288" column="46" />
+        <mark key="]" line="288" column="46" />
+        <mark key="^" line="12" column="40" />
+        <mark key="." line="288" column="46" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/DeleteDynamo.scala" timestamp="1479237581327">
+        <mark key="[" line="17" column="72" />
+        <mark key="]" line="5" column="40" />
+        <mark key="." line="5" column="40" />
+        <mark key="^" line="5" column="40" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/search/issueUtils.scala" timestamp="1478827498075">
+        <mark key="[" line="108" column="30" />
+        <mark key="]" line="108" column="30" />
+        <mark key="^" line="110" column="16" />
+        <mark key="." line="108" column="30" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/gnip/GnipStreamingTopology.scala" timestamp="1478277722666">
+        <mark key="[" line="59" column="44" />
+        <mark key="]" line="59" column="44" />
+        <mark key="^" line="59" column="44" />
+        <mark key="." line="59" column="44" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/implicits/DateToString.scala" timestamp="1470876948938">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="21" />
+        <mark key="." line="14" column="21" />
+        <mark key="^" line="14" column="21" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipRuleManager/build.sbt" timestamp="1476734386437">
+        <mark key="[" line="2" column="16" />
+        <mark key="]" line="2" column="17" />
+        <mark key="." line="2" column="17" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/service/ProfilesService.scala" timestamp="1472245114618">
+        <mark key="[" line="159" column="0" />
+        <mark key="]" line="159" column="0" />
+        <mark key="^" line="153" column="26" />
+        <mark key="." line="159" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/FieldExtractor.scala" timestamp="1479168058617">
+        <mark key="[" line="402" column="56" />
+        <mark key="]" line="402" column="56" />
+        <mark key="." line="402" column="56" />
+        <mark key="^" line="402" column="56" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/persiststory/PersistStoryFieldExtractor.scala" timestamp="1474100144354">
+        <mark key="[" line="19" column="75" />
+        <mark key="]" line="19" column="75" />
+        <mark key="." line="19" column="75" />
+        <mark key="^" line="19" column="75" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/circle.yml" timestamp="1472066732927">
+        <mark key="[" line="2" column="23" />
+        <mark key="]" line="31" column="59" />
+        <mark key="^" line="31" column="59" />
+        <mark key="." line="31" column="59" />
+      </file>
+      <file name="/a.regexp" timestamp="1479424909862">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/src/main/scala/bootstrap/liftweb/Boot.scala" timestamp="1478557978835">
+        <mark key="[" line="58" column="39" />
+        <mark key="]" line="58" column="55" />
+        <mark key="^" line="58" column="55" />
+        <mark key="." line="58" column="55" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/test/scala/com/zignallabs/realtime/gnip/GnipActivitySplitterTest.scala" timestamp="1479750917040">
+        <mark key="[" line="83" column="22" />
+        <mark key="]" line="83" column="30" />
+        <mark key="^" line="83" column="30" />
+        <mark key="." line="83" column="30" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/alchemy/SpiderManAlchemyLookupBolt.scala" timestamp="1479422957296">
+        <mark key="[" line="181" column="21" />
+        <mark key="]" line="181" column="22" />
+        <mark key="." line="181" column="22" />
+        <mark key="^" line="238" column="46" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-index-manager/src/main/resources/solrSettings.json" timestamp="1478287180278">
+        <mark key="[" line="2" column="25" />
+        <mark key="]" line="2" column="25" />
+        <mark key="^" line="2" column="25" />
+        <mark key="." line="2" column="25" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/gnip/GnipHosebirdClientBuilder.scala" timestamp="1477430171215">
+        <mark key="[" line="28" column="55" />
+        <mark key="]" line="28" column="53" />
+        <mark key="^" line="28" column="53" />
+        <mark key="." line="28" column="53" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/test/scala/com/zignallabs/realtime/BoltUnitTest.scala" timestamp="1479750820380">
+        <mark key="[" line="51" column="2" />
+        <mark key="]" line="51" column="1" />
+        <mark key="." line="51" column="1" />
+        <mark key="^" line="51" column="1" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipRuleManager/src/test/scala/com/zignallabs/gnip/RuleManagerTest.scala" timestamp="1476734055793">
+        <mark key="[" line="56" column="0" />
+        <mark key="]" line="56" column="0" />
+        <mark key="." line="56" column="0" />
+        <mark key="^" line="55" column="60" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/migrations/src/main/scala/com/zignallabs/sfdfmigration/PostMigration.scala" timestamp="1472067689016">
+        <mark key="[" line="16" column="12" />
+        <mark key="]" line="16" column="24" />
+        <mark key="^" line="16" column="24" />
+        <mark key="." line="16" column="24" />
+      </file>
+      <file name="/fragment.java" timestamp="1479425094901">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/filter/InfluxStatsFilter.scala" timestamp="1472057236322">
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+        <mark key="^" line="22" column="35" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/gnip/GnipKafkaProducerBolt.scala" timestamp="1474310985923">
+        <mark key="[" line="21" column="10" />
+        <mark key="]" line="21" column="50" />
+        <mark key="." line="21" column="50" />
+        <mark key="^" line="21" column="50" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/search/zignalSentiment.scala" timestamp="1472088874130">
+        <mark key="[" line="45" column="64" />
+        <mark key="]" line="59" column="58" />
+        <mark key="^" line="59" column="58" />
+        <mark key="." line="59" column="58" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-index-manager/src/main/scala/com/zignallabs/elasticindexer/IndexManager.scala" timestamp="1478286276136">
+        <mark key="[" line="66" column="14" />
+        <mark key="]" line="66" column="14" />
+        <mark key="." line="66" column="14" />
+        <mark key="^" line="66" column="14" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-issues/src/main/java/com/zignallabs/elasticZignal/script/IssueTagScriptBySentiment.java" timestamp="1473286523252">
+        <mark key="[" line="43" column="25" />
+        <mark key="]" line="36" column="0" />
+        <mark key="." line="36" column="0" />
+        <mark key="^" line="36" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/lambda-tools/build.sbt" timestamp="1478551439450">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/service/PancakeService.scala" timestamp="1475620228676">
+        <mark key="[" line="23" column="79" />
+        <mark key="]" line="23" column="86" />
+        <mark key="^" line="23" column="86" />
+        <mark key="." line="23" column="86" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/implicits/StringToDate.scala" timestamp="1470876942400">
+        <mark key="[" line="14" column="35" />
+        <mark key="]" line="14" column="28" />
+        <mark key="." line="14" column="28" />
+        <mark key="^" line="14" column="28" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/test/scala/com/zignallabs/realtime/es/EsBatchRegisterSpec.scala" timestamp="1471372605329">
+        <mark key="[" line="24" column="116" />
+        <mark key="]" line="96" column="29" />
+        <mark key="." line="96" column="29" />
+        <mark key="^" line="96" column="29" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/moreovercrunch/MoreoverCrunchSolrFieldMapper.scala" timestamp="1474104105328">
+        <mark key="[" line="138" column="0" />
+        <mark key="]" line="138" column="0" />
+        <mark key="." line="138" column="0" />
+        <mark key="^" line="138" column="53" />
+      </file>
+      <file name="/Dummy.scala" timestamp="1478227505484">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="6" />
+        <mark key="." line="0" column="6" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/dal-tools/src/main/scala/com/zignallabs/dalTools/DynamoConfigManager.scala" timestamp="1469679248637">
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
+        <mark key="^" line="15" column="32" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-issues/.gitignore" timestamp="1473286630373">
+        <mark key="[" line="12" column="5" />
+        <mark key="]" line="6" column="3" />
+        <mark key="^" line="6" column="3" />
+        <mark key="." line="6" column="3" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/service/NewsroomService.scala" timestamp="1477676129441">
+        <mark key="[" line="282" column="0" />
+        <mark key="]" line="282" column="0" />
+        <mark key="^" line="273" column="12" />
+        <mark key="." line="282" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/geo.scala" timestamp="1470759458707">
+        <mark key="[" line="150" column="82" />
+        <mark key="]" line="150" column="82" />
+        <mark key="^" line="106" column="58" />
+        <mark key="." line="150" column="82" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/controllers/TriggerController.scala" timestamp="1470774524964">
+        <mark key="[" line="10" column="13" />
+        <mark key="]" line="10" column="12" />
+        <mark key="^" line="10" column="12" />
+        <mark key="." line="10" column="12" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/tagger/KafkaProducerBolt.scala" timestamp="1475878238680">
+        <mark key="[" line="36" column="16" />
+        <mark key="]" line="37" column="7" />
+        <mark key="^" line="37" column="7" />
+        <mark key="." line="37" column="7" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/deploy/prod/lagunitas.sh" timestamp="1478290611111">
+        <mark key="[" line="11" column="34" />
+        <mark key="]" line="11" column="35" />
+        <mark key="." line="11" column="35" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/aircsv/build.sbt" timestamp="1470245995234">
+        <mark key="[" line="8" column="82" />
+        <mark key="]" line="8" column="82" />
+        <mark key="." line="8" column="82" />
+        <mark key="^" line="8" column="12" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/lambda-tools/src/test/scala/com/zignallabs/lambdatools/fieldmapper/gnip/Gnip2Test.scala" timestamp="1477414235634">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+        <mark key="^" line="20" column="43" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/dal-tools/src/test/scala/com/zignallabs/dalTools/StoryMetaUtilsSpec.scala" timestamp="1474109015372">
+        <mark key="[" line="410" column="0" />
+        <mark key="]" line="411" column="58" />
+        <mark key="^" line="411" column="58" />
+        <mark key="." line="411" column="58" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/RorschachSwagger.scala" timestamp="1470769311921">
+        <mark key="[" line="10" column="12" />
+        <mark key="]" line="10" column="20" />
+        <mark key="." line="10" column="20" />
+        <mark key="^" line="10" column="20" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/HCommon/src/main/scala/com/zignallabs/persist/CampaignMongo.scala" timestamp="1473212917860">
+        <mark key="[" line="511" column="0" />
+        <mark key="]" line="511" column="0" />
+        <mark key="^" line="589" column="50" />
+        <mark key="." line="511" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/src/main/resources/config.json" timestamp="1476807857577">
+        <mark key="[" line="124" column="13" />
+        <mark key="]" line="124" column="19" />
+        <mark key="^" line="124" column="19" />
+        <mark key="." line="124" column="19" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/controller/LegacyController.scala" timestamp="1475622444363">
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="^" line="139" column="92" />
+        <mark key="." line="17" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/project/plugins.sbt" timestamp="1478559863528">
+        <mark key="[" line="2" column="53" />
+        <mark key="]" line="2" column="54" />
+        <mark key="." line="2" column="54" />
+        <mark key="^" line="2" column="55" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/gnip/GnipTransformerBolt.scala" timestamp="1475879332705">
+        <mark key="[" line="35" column="24" />
+        <mark key="]" line="45" column="0" />
+        <mark key="^" line="24" column="47" />
+        <mark key="." line="45" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/search/esQuery.scala" timestamp="1475620723685">
+        <mark key="[" line="438" column="0" />
+        <mark key="]" line="438" column="0" />
+        <mark key="." line="438" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/http-fork/build.sbt" timestamp="1476125052501">
+        <mark key="[" line="36" column="47" />
+        <mark key="]" line="38" column="52" />
+        <mark key="." line="38" column="52" />
+        <mark key="^" line="38" column="52" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/SFDFMigration/src/main/scala/com/zignallabs/sfdfmigration/Noize.scala" timestamp="1476748075330">
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="0" />
+        <mark key="." line="35" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/migrations/src/main/scala/com/zignallabs/sfdfmigration/IssuesPreMigration.scala" timestamp="1471634975594">
+        <mark key="[" line="16" column="69" />
+        <mark key="]" line="16" column="69" />
+        <mark key="^" line="18" column="28" />
+        <mark key="." line="16" column="69" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/error/PancakeExceptionMapper.scala" timestamp="1479763787233" />
+      <file name="$USER_HOME$/Development/Zignal/StormConfig/build.sbt" timestamp="1477075863367">
+        <mark key="[" line="4" column="14" />
+        <mark key="]" line="4" column="15" />
+        <mark key="^" line="4" column="16" />
+        <mark key="." line="4" column="15" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/resources/application.conf" timestamp="1471042425724">
+        <mark key="[" line="0" column="75" />
+        <mark key="]" line="0" column="75" />
+        <mark key="^" line="0" column="73" />
+        <mark key="." line="0" column="75" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/Pancake.scala" timestamp="1478554534006">
+        <mark key="[" line="77" column="11" />
+        <mark key="]" line="77" column="27" />
+        <mark key="." line="77" column="27" />
+        <mark key="^" line="77" column="27" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/zignal/zignaljson.scala" timestamp="1479168624698">
+        <mark key="[" line="257" column="54" />
+        <mark key="]" line="276" column="29" />
+        <mark key="^" line="276" column="29" />
+        <mark key="." line="276" column="29" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipStreaming/src/main/scala/com/zignallabs/gnip/GnipSpout.scala" timestamp="1473449206413">
+        <mark key="[" line="99" column="0" />
+        <mark key="]" line="99" column="0" />
+        <mark key="^" line="88" column="27" />
+        <mark key="." line="99" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/test/scala/com/zignallabs/realtime/es/ESWriterBoltTest.scala" timestamp="1470690634424">
+        <mark key="[" line="90" column="4" />
+        <mark key="]" line="90" column="3" />
+        <mark key="." line="90" column="3" />
+        <mark key="^" line="90" column="3" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/search/solrTransformer.scala" timestamp="1478198456813">
+        <mark key="[" line="160" column="39" />
+        <mark key="]" line="160" column="86" />
+        <mark key="." line="160" column="86" />
+        <mark key="^" line="160" column="86" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/error/Errors.scala" timestamp="1479763733941" />
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/services/AlertsService.scala" timestamp="1471033370013">
+        <mark key="[" line="33" column="42" />
+        <mark key="]" line="34" column="0" />
+        <mark key="^" line="31" column="42" />
+        <mark key="." line="34" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-issues/circle.yml" timestamp="1476383680612">
+        <mark key="[" line="12" column="8" />
+        <mark key="]" line="12" column="18" />
+        <mark key="." line="12" column="18" />
+        <mark key="^" line="12" column="18" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/controller/ZRankController.scala" timestamp="1475770337135">
+        <mark key="[" line="24" column="28" />
+        <mark key="]" line="15" column="83" />
+        <mark key="." line="15" column="83" />
+        <mark key="^" line="15" column="83" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/HCommon/build.sbt" timestamp="1476400795592">
+        <mark key="[" line="2" column="15" />
+        <mark key="]" line="2" column="16" />
+        <mark key="." line="2" column="16" />
+        <mark key="^" line="2" column="47" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/wabisabi/src/main/scala/com/zignallabs/wabisabi/Client.scala" timestamp="1471095897833">
+        <mark key="[" line="73" column="9" />
+        <mark key="]" line="73" column="13" />
+        <mark key="^" line="73" column="13" />
+        <mark key="." line="73" column="13" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/spiderman/project/Build.scala" timestamp="1469739331342">
+        <mark key="[" line="11" column="25" />
+        <mark key="]" line="11" column="32" />
+        <mark key="^" line="11" column="32" />
+        <mark key="." line="11" column="32" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/scalajs-playground/src/main/scala/com/schwartz/TutorialApp.scala" timestamp="1478925892505">
+        <mark key="[" line="14" column="45" />
+        <mark key="]" line="14" column="37" />
+        <mark key="." line="14" column="37" />
+        <mark key="^" line="14" column="37" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/error/Errors.scala" timestamp="1470888097925">
+        <mark key="[" line="24" column="78" />
+        <mark key="]" line="19" column="1" />
+        <mark key="." line="19" column="1" />
+        <mark key="^" line="19" column="1" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/storymeta/StoryMetaBolt.scala" timestamp="1477945891649">
+        <mark key="[" line="152" column="0" />
+        <mark key="]" line="152" column="0" />
+        <mark key="^" line="16" column="53" />
+        <mark key="." line="152" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/boardreader/BRVideosSolrFieldMapper.scala" timestamp="1474104230826">
+        <mark key="[" line="85" column="19" />
+        <mark key="]" line="85" column="24" />
+        <mark key="." line="85" column="24" />
+        <mark key="^" line="85" column="24" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/lambda-tools/src/main/scala/com/zignallabs/lambdatools/tools/Emoji.scala" timestamp="1478553386996">
+        <mark key="[" line="16" column="13" />
+        <mark key="]" line="16" column="1" />
+        <mark key="^" line="16" column="1" />
+        <mark key="." line="16" column="1" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipRuleManager/src/main/scala/com/zignallabs/gnip/RuleManager.scala" timestamp="1476730996263">
+        <mark key="[" line="126" column="0" />
+        <mark key="]" line="126" column="0" />
+        <mark key="." line="126" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-percolation-manager/src/test/scala/com/zignallabs/elasticpercolator/TaggingPercolatorManagerSpecs.scala" timestamp="1472055689274">
+        <mark key="[" line="17" column="47" />
+        <mark key="]" line="17" column="47" />
+        <mark key="." line="17" column="47" />
+        <mark key="^" line="17" column="32" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/FieldExtractor.scala" timestamp="1474100781786">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="^" line="114" column="28" />
+        <mark key="." line="3" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/src/main/scala/code/rest/VersionController.scala" timestamp="1478561133540">
+        <mark key="[" line="21" column="29" />
+        <mark key="]" line="18" column="0" />
+        <mark key="." line="18" column="0" />
+        <mark key="^" line="18" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/AllSourceCreatedAtExtractorFactory.scala" timestamp="1474099091528">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
+        <mark key="^" line="17" column="52" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/migrations/src/main/scala/com/zignallabs/sfdfmigration/InfluencePostMigration.scala" timestamp="1471400368847">
+        <mark key="[" line="3" column="47" />
+        <mark key="]" line="3" column="18" />
+        <mark key="^" line="3" column="18" />
+        <mark key="." line="3" column="18" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/project/plugins.sbt" timestamp="1478556684390">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/gnip/GnipFieldExtractor.scala" timestamp="1479168446674">
+        <mark key="[" line="136" column="0" />
+        <mark key="]" line="136" column="0" />
+        <mark key="." line="136" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipRuleManager/src/main/scala/com/zignallabs/gnip/GnipRuleClient.scala" timestamp="1479325766484">
+        <mark key="[" line="134" column="100" />
+        <mark key="]" line="134" column="116" />
+        <mark key="^" line="134" column="116" />
+        <mark key="." line="134" column="116" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/models/ZRank.scala" timestamp="1475770805504">
+        <mark key="[" line="34" column="0" />
+        <mark key="]" line="34" column="0" />
+        <mark key="." line="34" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/alchemy/SentimentLookupBolt.scala" timestamp="1476467885602">
+        <mark key="[" line="137" column="0" />
+        <mark key="]" line="137" column="0" />
+        <mark key="^" line="15" column="53" />
+        <mark key="." line="137" column="0" />
+      </file>
+      <file name="/ActionScript File Header.txt.ft" timestamp="1479439883819">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipStreaming/circle.yml" timestamp="1473439942952">
+        <mark key="[" line="30" column="38" />
+        <mark key="]" line="30" column="50" />
+        <mark key="." line="30" column="50" />
+        <mark key="^" line="30" column="50" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/build.sbt" timestamp="1478277938453">
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/random/build.sbt" timestamp="1478905165203">
+        <mark key="[" line="12" column="24" />
+        <mark key="]" line="8" column="22" />
+        <mark key="." line="8" column="22" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/gnip/GnipActivitySplitter.scala" timestamp="1479494480987">
+        <mark key="[" line="49" column="21" />
+        <mark key="]" line="32" column="19" />
+        <mark key="^" line="32" column="19" />
+        <mark key="." line="32" column="19" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/swagger-finatra/src/main/scala/com/zignallabs/swagger/finatra/FinatraSwagger.scala" timestamp="1474096610920">
+        <mark key="[" line="6" column="40" />
+        <mark key="]" line="7" column="40" />
+        <mark key="^" line="7" column="40" />
+        <mark key="." line="7" column="40" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/boardreader/BRBlogsCreatedAtExtractor.scala" timestamp="1474099311718">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
+        <mark key="^" line="9" column="84" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/project/build.properties" timestamp="1477075735696">
+        <mark key="[" line="0" column="18" />
+        <mark key="]" line="0" column="18" />
+        <mark key="^" line="0" column="18" />
+        <mark key="." line="0" column="18" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipStreaming/src/main/scala/com/zignallabs/gnip/KafkaWriter.scala" timestamp="1473447962145">
+        <mark key="[" line="73" column="18" />
+        <mark key="]" line="73" column="104" />
+        <mark key="^" line="73" column="104" />
+        <mark key="." line="73" column="104" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-percolation-manager/src/main/scala/com/zignallabs/elasticindexer/MonthlyIndexSetBuilder.scala" timestamp="1472054685368">
+        <mark key="[" line="18" column="18" />
+        <mark key="]" line="18" column="24" />
+        <mark key="." line="18" column="24" />
+        <mark key="^" line="18" column="24" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/http-fork/src/main/scala/com/zignallabs/httpfork/config.scala" timestamp="1476125538528">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/random/src/main/scala/com/schwartz/random/YummlyParser.scala" timestamp="1478904760641">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="^" line="29" column="24" />
+        <mark key="." line="7" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/migrations/src/main/scala/com/zignallabs/sfdfmigration/UpdateProfiles.scala" timestamp="1476983542380">
+        <mark key="[" line="28" column="0" />
+        <mark key="]" line="28" column="0" />
+        <mark key="." line="28" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/src/main/scala/code/rest/FilterCrud.scala" timestamp="1479505793998">
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/noize/src/main/scala/code/rest/profile/CreateProfile.scala" timestamp="1478729093218">
+        <mark key="[" line="83" column="0" />
+        <mark key="]" line="83" column="0" />
+        <mark key="." line="83" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/service/NewsroomService.scala" timestamp="1479764078353">
+        <mark key="]" line="567" column="17" />
+        <mark key="^" line="567" column="17" />
+        <mark key="." line="567" column="17" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/HCommon/src/main/scala/com/zignallabs/zql/v2/transform/DBObject.scala" timestamp="1469721328324">
+        <mark key="[" line="57" column="100" />
+        <mark key="]" line="57" column="98" />
+        <mark key="." line="57" column="98" />
+        <mark key="^" line="57" column="98" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/service/zrank/ZRankAggregationService.scala" timestamp="1475533810194">
+        <mark key="[" line="49" column="8" />
+        <mark key="]" line="73" column="17" />
+        <mark key="^" line="73" column="17" />
+        <mark key="." line="73" column="17" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/mongo/Mongo.scala" timestamp="1475619919296">
+        <mark key="[" line="352" column="73" />
+        <mark key="]" line="352" column="72" />
+        <mark key="^" line="352" column="72" />
+        <mark key="." line="352" column="72" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/build.sbt" timestamp="1477677730514">
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="0" />
+        <mark key="." line="31" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/migrations/src/main/scala/com/zignallabs/sfdfmigration/PreMigration.scala" timestamp="1476748127543">
+        <mark key="[" line="43" column="30" />
+        <mark key="]" line="43" column="26" />
+        <mark key="." line="43" column="26" />
+        <mark key="^" line="43" column="26" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/tools/LangDetect.scala" timestamp="1474102224223">
+        <mark key="[" line="10" column="26" />
+        <mark key="]" line="10" column="29" />
+        <mark key="^" line="10" column="29" />
+        <mark key="." line="10" column="29" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/migrations/src/main/scala/com/zignallabs/sfdfmigration/Noize.scala" timestamp="1476982232836">
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="36" column="39" />
+        <mark key="." line="36" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/Rorschach.scala" timestamp="1470928233995">
+        <mark key="[" line="29" column="55" />
+        <mark key="]" line="29" column="63" />
+        <mark key="." line="29" column="63" />
+        <mark key="^" line="29" column="63" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/db/Mongo.scala" timestamp="1470885784476">
+        <mark key="[" line="70" column="19" />
+        <mark key="]" line="70" column="19" />
+        <mark key="." line="70" column="19" />
+        <mark key="^" line="69" column="11" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/resources/application.conf" timestamp="1479502857561">
+        <mark key="[" line="77" column="0" />
+        <mark key="]" line="77" column="0" />
+        <mark key="^" line="76" column="14" />
+        <mark key="." line="77" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/tagger/EnrichedKafkaProducerBolt.scala" timestamp="1473450686230">
+        <mark key="[" line="10" column="37" />
+        <mark key="]" line="10" column="37" />
+        <mark key="^" line="10" column="37" />
+        <mark key="." line="10" column="37" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/service/ImpressionsService.scala" timestamp="1475524163565">
+        <mark key="[" line="74" column="95" />
+        <mark key="]" line="41" column="105" />
+        <mark key="." line="41" column="105" />
+        <mark key="^" line="41" column="105" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/test/scala/com/zignallabs/realtime/storymeta/StoryMetaBoltSpec.scala" timestamp="1471623133221">
+        <mark key="[" line="29" column="0" />
+        <mark key="]" line="30" column="36" />
+        <mark key="." line="30" column="36" />
+        <mark key="^" line="30" column="36" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/service/EmojiService.scala" timestamp="1472057433563">
+        <mark key="[" line="42" column="91" />
+        <mark key="]" line="42" column="95" />
+        <mark key="." line="42" column="95" />
+        <mark key="^" line="42" column="95" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/SocialMediaTopology.scala" timestamp="1472252423193">
+        <mark key="[" line="8" column="58" />
+        <mark key="]" line="8" column="58" />
+        <mark key="." line="8" column="58" />
+        <mark key="^" line="8" column="44" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/models/IdRequest.scala" timestamp="1470779356068">
+        <mark key="[" line="8" column="5" />
+        <mark key="]" line="11" column="3" />
+        <mark key="^" line="11" column="3" />
+        <mark key="." line="11" column="3" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/http-fork/src/main/scala/com/zignallabs/httpfork/serviceRoot.scala" timestamp="1476124379165">
+        <mark key="[" line="42" column="0" />
+        <mark key="]" line="42" column="0" />
+        <mark key="." line="42" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/zqlizer/src/main/resources/reference.conf" timestamp="1476808980255">
+        <mark key="[" line="6" column="14" />
+        <mark key="]" line="6" column="26" />
+        <mark key="." line="6" column="26" />
+        <mark key="^" line="6" column="26" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-percolation-manager/src/main/scala/com/zignallabs/checker/CheckerUtils.scala" timestamp="1472054038511">
+        <mark key="[" line="59" column="111" />
+        <mark key="]" line="59" column="169" />
+        <mark key="^" line="59" column="169" />
+        <mark key="." line="59" column="169" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/rtanalytics/GnipImpressionsBolt.scala" timestamp="1478209357785">
+        <mark key="[" line="89" column="21" />
+        <mark key="]" line="89" column="24" />
+        <mark key="^" line="89" column="24" />
+        <mark key="." line="89" column="24" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-issues/src/test/java/com/zignallabs/elasticZignal/script/IssueTagScriptTests.java" timestamp="1473287398312">
+        <mark key="[" line="36" column="21" />
+        <mark key="]" line="36" column="22" />
+        <mark key="." line="36" column="22" />
+        <mark key="^" line="36" column="17" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/elastic-issues/src/test/java/com/zignallabs/elasticZignal/script/IssueTagScriptWithStopwordsTests.java" timestamp="1473287279959">
+        <mark key="[" line="212" column="42" />
+        <mark key="]" line="212" column="51" />
+        <mark key="^" line="212" column="51" />
+        <mark key="." line="212" column="51" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/HCommon/src/main/scala/com/zignallabs/zql/v2/ZqlNode.scala" timestamp="1471909207584">
+        <mark key="[" line="122" column="61" />
+        <mark key="]" line="122" column="54" />
+        <mark key="." line="122" column="54" />
+        <mark key="^" line="122" column="54" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/migrations/src/main/scala/com/zignallabs/sfdfmigration/DeleteOldGnipRules.scala" timestamp="1478627359777">
+        <mark key="[" line="12" column="47" />
+        <mark key="]" line="12" column="60" />
+        <mark key="." line="12" column="60" />
+        <mark key="^" line="12" column="60" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/Failover.scala" timestamp="1471913918530">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="." line="12" column="0" />
+        <mark key="^" line="11" column="1" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/hbc/hbc-core/src/main/java/com/twitter/hbc/core/Constants.java" timestamp="1477583538181">
+        <mark key="[" line="71" column="46" />
+        <mark key="]" line="71" column="52" />
+        <mark key="." line="71" column="52" />
+        <mark key="^" line="71" column="52" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/mongo/Issue.scala" timestamp="1471985353402">
+        <mark key="[" line="21" column="47" />
+        <mark key="]" line="21" column="46" />
+        <mark key="." line="21" column="46" />
+        <mark key="^" line="21" column="70" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/stats/DatadogStatsDClient.scala" timestamp="1479498096879">
+        <mark key="[" line="9" column="70" />
+        <mark key="]" line="9" column="70" />
+        <mark key="^" line="9" column="98" />
+        <mark key="." line="9" column="70" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/implicits/Implicits.scala" timestamp="1470877136809">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
+        <mark key="^" line="15" column="75" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/migrations/project/build.properties" timestamp="1471398995613">
+        <mark key="[" line="0" column="20" />
+        <mark key="]" line="0" column="20" />
+        <mark key="^" line="0" column="20" />
+        <mark key="." line="0" column="20" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/GnipStreaming/src/main/scala/com/zignallabs/gnip/GnipStreamingTopology.scala" timestamp="1473449497721">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
+        <mark key="^" line="7" column="12" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/hbc/hbc-core/src/main/java/com/twitter/hbc/core/endpoint/ReplayEnterpriseStreamingEndpoint_v2.java" timestamp="1477089323156">
+        <mark key="[" line="20" column="85" />
+        <mark key="]" line="34" column="41" />
+        <mark key="^" line="22" column="49" />
+        <mark key="." line="34" column="41" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/zqlizer/src/main/scala/com/zignallabs/zqlizer/dao/Watcher.scala" timestamp="1471098818206">
+        <mark key="[" line="86" column="0" />
+        <mark key="]" line="86" column="0" />
+        <mark key="^" line="81" column="18" />
+        <mark key="." line="86" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/HCommon/src/main/scala/com/zignallabs/zql/v2/transform/Json.scala" timestamp="1476293331780">
+        <mark key="[" line="53" column="47" />
+        <mark key="]" line="53" column="47" />
+        <mark key="." line="53" column="47" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/zqlizer/build.sbt" timestamp="1476807928442">
+        <mark key="[" line="2" column="18" />
+        <mark key="]" line="2" column="20" />
+        <mark key="." line="2" column="20" />
+        <mark key="^" line="2" column="20" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/daos/AlertsDAO.scala" timestamp="1470841782874">
+        <mark key="[" line="10" column="42" />
+        <mark key="]" line="10" column="33" />
+        <mark key="^" line="10" column="33" />
+        <mark key="." line="10" column="33" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/http-fork/src/main/scala/com/zignallabs/httpfork/Strategies/ForkStrategy.scala" timestamp="1476124487274">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/TwoEleven/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/zignal/ZignalBodyPresenter.scala" timestamp="1474100845136">
+        <mark key="[" line="28" column="25" />
+        <mark key="]" line="28" column="25" />
+        <mark key="^" line="12" column="38" />
+        <mark key="." line="28" column="25" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/mongo/MongoIssueSearch.scala" timestamp="1471894077345">
+        <mark key="[" line="13" column="51" />
+        <mark key="]" line="13" column="51" />
+        <mark key="^" line="12" column="30" />
+        <mark key="." line="13" column="56" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/http-fork/src/main/scala/com/zignallabs/httpfork/util/sprayHelpter.scala" timestamp="1476037993694">
+        <mark key="[" line="5" column="15" />
+        <mark key="]" line="5" column="15" />
+        <mark key="." line="5" column="15" />
+      </file>
+      <file name="$USER_HOME$/Development/Zignal/development/scalajs-playground/src/main/scala/com/schwartz/YummlyParser.scala" timestamp="1478926517554">
+        <mark key="[" line="49" column="0" />
+        <mark key="]" line="49" column="0" />
+        <mark key="." line="49" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="63" column="29" filename="$USER_HOME$/Documents/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/BroadcastDMA.scala" />
+      <jump line="117" column="3" filename="$USER_HOME$/Documents/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/serviceRoot.scala" />
+      <jump line="35" column="79" filename="$USER_HOME$/Development/Zignal/Pancake/src/test/scala/com/zignallabs/elasticserver/filter/ExceptionFilterUnitTest.scala" />
+      <jump line="16" column="33" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/trendingStories.scala" />
+      <jump line="64" column="125" filename="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/SocialMediaTopology.scala" />
+      <jump line="201" column="21" filename="$USER_HOME$/.ivy2/cache/com.zignallabs/dal-tools_2.10/srcs/dal-tools_2.10-0.0.16-SNAPSHOT-sources.jar!/com/zignallabs/dalTools/mongo/ZignalMongoAccess.scala" />
+      <jump line="54" column="31" filename="$USER_HOME$/.ivy2/cache/com.zignallabs/dal-tools_2.10/srcs/dal-tools_2.10-0.0.16-SNAPSHOT-sources.jar!/com/zignallabs/dalTools/mongo/ZignalMongoAccess.scala" />
+      <jump line="368" column="15" filename="$USER_HOME$/Development/Zignal/elastic-percolation-manager/src/test/scala/com/zignallabs/elasticpercolator/TaggingPercolatorManagerSpecs.scala" />
+      <jump line="461" column="49" filename="$USER_HOME$/Development/Zignal/elastic-percolation-manager/src/test/scala/com/zignallabs/elasticpercolator/TaggingPercolatorManagerSpecs.scala" />
+      <jump line="72" column="133" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/newsroom.scala" />
+      <jump line="79" column="43" filename="$USER_HOME$/Development/Zignal/Pancake/src/test/scala/com/zignallabs/elasticserver/NewsroomUnitTest.scala" />
+      <jump line="77" column="2" filename="$USER_HOME$/Development/Zignal/Pancake/src/test/scala/com/zignallabs/elasticserver/NewsroomUnitTest.scala" />
+      <jump line="90" column="39" filename="$USER_HOME$/Development/Zignal/Pancake/src/test/scala/com/zignallabs/elasticserver/NewsroomUnitTest.scala" />
+      <jump line="425" column="0" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/newsroom.scala" />
+      <jump line="53" column="27" filename="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/es/ESBatchRegister.scala" />
+      <jump line="46" column="58" filename="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/es/ESParserBolt.scala" />
+      <jump line="289" column="33" filename="$USER_HOME$/Development/Zignal/Pancake/src/test/scala/com/zignallabs/elasticserver/NewsroomUnitTest.scala" />
+      <jump line="78" column="55" filename="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/es/ESParserBolt.scala" />
+      <jump line="67" column="6" filename="$USER_HOME$/Development/Zignal/realtime/src/test/scala/com/zignallabs/realtime/es/ESBatchRegisterTest.scala" />
+      <jump line="1" column="122" filename="$USER_HOME$/Development/Zignal/Pancake/src/test/resources/newsroom.txt" />
+      <jump line="5" column="6" filename="$USER_HOME$/Development/Zignal/Pancake/src/test/scala/com/zignallabs/elasticserver/util/ZignalTimeUnitTest.scala" />
+      <jump line="40" column="72" filename="$USER_HOME$/Development/Zignal/Pancake/src/test/scala/com/zignallabs/elasticserver/util/ZignalTimeUnitTest.scala" />
+      <jump line="52" column="39" filename="$USER_HOME$/Development/Zignal/aircsv/src/main/scala/AirCSV.scala" />
+      <jump line="7" column="0" filename="$USER_HOME$/Development/Zignal/aircsv/src/main/resources/application.conf" />
+      <jump line="89" column="0" filename="$USER_HOME$/Development/Zignal/aircsv/src/main/scala/com/zignallabs/aircsv/AirCSV.scala" />
+      <jump line="74" column="78" filename="$USER_HOME$/Development/Zignal/aircsv/src/main/scala/com/zignallabs/aircsv/AirCSV.scala" />
+      <jump line="100" column="13" filename="$USER_HOME$/Development/Zignal/aircsv/src/main/scala/com/zignallabs/aircsv/IssueUtils.scala" />
+      <jump line="89" column="63" filename="$USER_HOME$/Development/Zignal/aircsv/src/main/scala/com/zignallabs/aircsv/IssueUtils.scala" />
+      <jump line="13" column="23" filename="$USER_HOME$/Development/Zignal/lambda-tools/src/test/scala/com/zignallabs/lambdatools/fieldmapper/TwitterTypeTest.scala" />
+      <jump line="36" column="34" filename="$USER_HOME$/Development/Zignal/HCommon/build.sbt" />
+      <jump line="138" column="21" filename="$USER_HOME$/Development/Zignal/aircsv/src/main/scala/com/zignallabs/aircsv/AirCSV.scala" />
+      <jump line="6" column="26" filename="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/GnipEnrichmentTopology.scala" />
+      <jump line="288" column="98" filename="$USER_HOME$/Development/Zignal/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/zignal/zignaljson.scala" />
+      <jump line="188" column="46" filename="$USER_HOME$/Development/Zignal/HCommon/src/main/scala/com/zignallabs/zql/v2/transform/Newsroom.scala" />
+      <jump line="95" column="152" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/serviceRoot.scala" />
+      <jump line="94" column="21" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/authorsByMention.scala" />
+      <jump line="100" column="14" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/mentionByType.scala" />
+      <jump line="19" column="13" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/redis/RedisClient.scala" />
+      <jump line="84" column="26" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/search/esQuery.scala" />
+      <jump line="16" column="69" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/resources/application.conf" />
+      <jump line="184" column="19" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/serviceRoot.scala" />
+      <jump line="70" column="10" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/serviceRoot.scala" />
+      <jump line="101" column="37" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/serviceRoot.scala" />
+      <jump line="0" column="0" filename="$USER_HOME$/Development/Zignal/lambda-tools/src/main/resources/geodictionary.json" />
+      <jump line="16" column="13" filename="$USER_HOME$/Development/Zignal/SFDFMigration/src/main/scala/com/zignallabs/sfdfmigration/InfluenceMigration.scala" />
+      <jump line="162" column="102" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/controller/LegacyController.scala" />
+      <jump line="47" column="32" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/resources/application.conf" />
+      <jump line="303" column="60" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/search/esQuery.scala" />
+      <jump line="20" column="5" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/Pancake.scala" />
+      <jump line="450" column="15" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/newsroom.scala" />
+      <jump line="133" column="77" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/solrFailover.scala" />
+      <jump line="12" column="46" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/search/RedisCache.scala" />
+      <jump line="30" column="11" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/service/ProfilesService.scala" />
+      <jump line="49" column="60" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/service/FailoverService.scala" />
+      <jump line="78" column="23" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/test/scala/com/zignallabs/elasticserver/service/ProfilesServiceUnitTest.scala" />
+      <jump line="366" column="8" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/test/scala/com/zignallabs/elasticserver/service/ProfilesServiceUnitTest.scala" />
+      <jump line="48" column="39" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/test/scala/com/zignallabs/elasticserver/controller/ProfilesControllerFeatureTest.scala" />
+      <jump line="276" column="79" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/test/scala/com/zignallabs/elasticserver/service/ProfilesServiceUnitTest.scala" />
+      <jump line="420" column="24" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/test/scala/com/zignallabs/elasticserver/service/ProfilesServiceUnitTest.scala" />
+      <jump line="35" column="2" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/search/elasticsearchDSL.scala" />
+      <jump line="282" column="38" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/service/NewsroomService.scala" />
+      <jump line="52" column="59" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/newsroom.scala" />
+      <jump line="183" column="25" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/service/NewsroomService.scala" />
+      <jump line="35" column="17" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/search/ElasticsearchModule.scala" />
+      <jump line="35" column="30" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/search/Symfony.scala" />
+      <jump line="320" column="15" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/service/ProfilesService.scala" />
+      <jump line="70" column="31" filename="$USER_HOME$/Development/Zignal/aircsv/src/main/scala/com/zignallabs/aircsv/IssueUtils.scala" />
+      <jump line="520" column="12" filename="$USER_HOME$/Development/Zignal/HCommon/src/main/scala/com/zignallabs/zql/v2/transform/Newsroom.scala" />
+      <jump line="29" column="53" filename="$USER_HOME$/Development/Zignal/SFDFMigration/src/main/scala/com/zignallabs/sfdfmigration/Migration.scala" />
+      <jump line="89" column="33" filename="$USER_HOME$/Development/Zignal/noize/src/main/scala/code/rest/FilterCrud.scala" />
+      <jump line="783" column="4" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/test/scala/com/zignallabs/elasticserver/service/ProfilesServiceUnitTest.scala" />
+      <jump line="804" column="31" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/test/scala/com/zignallabs/elasticserver/service/ProfilesServiceUnitTest.scala" />
+      <jump line="335" column="23" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/service/ProfilesService.scala" />
+      <jump line="12" column="0" filename="$USER_HOME$/Development/Zignal/realtime/launch-script.sh" />
+      <jump line="604" column="61" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/test/scala/com/zignallabs/elasticserver/service/NewsroomServiceUnitTest.scala" />
+      <jump line="53" column="21" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/search/ZignalSource.scala" />
+      <jump line="33" column="84" filename="$USER_HOME$/Development/Zignal/elastic-index-manager/src/main/scala/com/zignallabs/elasticindexer/IndexManager.scala" />
+      <jump line="119" column="11" filename="$USER_HOME$/Development/Zignal/sparkfill/src/main/scala/com/zignallabs/sparkfill/s3ToSolr/ESBatchRegister.scala" />
+      <jump line="123" column="88" filename="$USER_HOME$/Development/Zignal/sparkfill/src/main/scala/com/zignallabs/sparkfill/s3ToSolr/ESBatchRegister.scala" />
+      <jump line="54" column="64" filename="$USER_HOME$/Development/Zignal/development/Pancake/src/main/scala/com/zignallabs/elasticserver/mongo/Mongo.scala" />
+      <jump line="59" column="58" filename="$USER_HOME$/Development/Zignal/realtime/src/test/scala/com/zignallabs/realtime/AlchhemyDynamoServiceTest.scala" />
+      <jump line="92" column="5" filename="$USER_HOME$/Development/Zignal/realtime/deploy.sh" />
+      <jump line="130" column="5" filename="$USER_HOME$/Development/Zignal/realtime/deploy.sh" />
+      <jump line="7" column="0" filename="$USER_HOME$/Development/Zignal/wabisabi/src/main/scala/com/zignallabs/wabisabi/Client.scala" />
+      <jump line="52" column="44" filename="$USER_HOME$/Development/Zignal/wabisabi/src/main/scala/com/zignallabs/wabisabi/Client.scala" />
+      <jump line="20" column="0" filename="$USER_HOME$/Development/Zignal/rorschach/build.sbt" />
+      <jump line="5" column="6" filename="$USER_HOME$/Development/Zignal/rorschach/src/main/scala/com.zignallabs.rorschach/db/Watcher.scala" />
+      <jump line="12" column="0" filename="$USER_HOME$/Development/Zignal/migrations/src/main/scala/com/zignallabs/sfdfmigration/IssuesPreMigration.scala" />
+      <jump line="42" column="17" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/search/issueUtils.scala" />
+      <jump line="37" column="33" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/search/issueUtils.scala" />
+      <jump line="19" column="21" filename="$USER_HOME$/Development/Zignal/Pancake/src/test/scala/com/zignallabs/elasticserver/service/PancakeServiceUnitTest.scala" />
+      <jump line="182" column="34" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/mongo/Mongo.scala" />
+      <jump line="0" column="36" filename="/Dummy.scala" />
+      <jump line="0" column="13" filename="/a.regexp" />
+      <jump line="220" column="24" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/models/Newsroom.scala" />
+      <jump line="92" column="33" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/service/ZRankService.scala" />
+      <jump line="27" column="50" filename="$USER_HOME$/Development/Zignal/Pancake/src/main/scala/com/zignallabs/elasticserver/dao/ZRankDAO.scala" />
+      <jump line="197" column="0" filename="$USER_HOME$/Development/Zignal/realtime/src/main/scala/com/zignallabs/realtime/es/ESWriterBolt.scala" />
+      <jump line="188" column="41" filename="$USER_HOME$/Development/Zignal/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/gnip/GnipSolrFieldMapper.scala" />
+      <jump line="354" column="4" filename="$USER_HOME$/Development/Zignal/lambda-tools/src/main/scala/com/zignallabs/lambdatools/fieldmapper/gnip/GnipSolrFieldMapper.scala" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">ZmxhY2F0TWFwIA==</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">ZmxhY2F0TWFwIA==</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDxzY2FsYWxvZ2dpbmdcPg==</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgY2FzZSAiYXV0byIgPT4gcyIoLXNlbnRpbWVudF9vdmVycmlkZV9pZHM6JGNhbXBhaWduSWQpIgo=</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICB2YWwgY2FtcGFpZ25JZFN0ciA9IGNhbXBhaWduSWQuYXNJbnN0YW5jZU9mW1N0cmluZ10K</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">aW1wb3J0IGphdmEuaW8ue0ZpbGUsIFByaW50V3JpdGVyfQoK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIAogIHdyaXRlci5jbG9zZSgpCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICB2YWwgd3JpdGVyID0gbmV3IFByaW50V3JpdGVyKG5ldyBGaWxlKCIvVXNlcnMvamFrZWhzY2h3YXJ0ei9Eb3dubG9hZHMvc29ydGVkbXVzaWMudHN2IikpCiAgd3JpdGVyLndyaXRlKHJlcykK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIC5ta1N0cmluZygiXG4iKQoK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIC50b0xpc3QKICAgIC5zb3J0ZWQK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">CiAgdmFsIHJlcyA9IGFsYnVtcy5tYXAoYWxidW0gPT4gcyIke21hcC5nZXRPckVsc2UoYWxidW0sICJFUlJPUiIpfVx0JGFsYnVtIikK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">CiAgdmFsIGFsYnVtcyA9IG1hcC5rZXlzLnRvU2V0Cg==</text>
+      </register>
+      <register name="9" type="4">
+        <text encoding="base64">CiAgICAubWFwKF8gc3BsaXQgIlx0IikKICAgIC5tYXAoYXJyID0+IChhcnIuaGVhZCwgYXJyLmxhc3QpKQogICAgLnRvTWFw</text>
+      </register>
+      <register name=":" type="4">
+        <text>52</text>
+      </register>
+    </registers>
+    <search>
+      <last-search encoding="base64">XDxzY2FsYWxvZ2dpbmdcPg==</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDxzY2FsYWxvZ2dpbmdcPg==</last-pattern>
+      <last-dir>-1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry>filter</entry>
+        <entry>Filter</entry>
+        <entry encoding="base64">XDxaaWduYWxUaW1lVW5pdFRlc3RcPg==</entry>
+        <entry encoding="base64">XDxhbWF6b25cPg==</entry>
+        <entry>10.5</entry>
+        <entry>title</entry>
+        <entry>*</entry>
+        <entry>health</entry>
+        <entry>influx</entry>
+        <entry>QueryReq</entry>
+        <entry>normalized</entry>
+        <entry encoding="base64">XDxpZFw+</entry>
+        <entry>THIS</entry>
+        <entry>JS</entry>
+        <entry encoding="base64">XDxpbnN0YWdyYW1cPg==</entry>
+        <entry encoding="base64">XDxidWNrZXRzXD4=</entry>
+        <entry encoding="base64">XDwoXD4=</entry>
+        <entry encoding="base64">XDxkZXNjcmlwdGlvblw+</entry>
+        <entry encoding="base64">XDxkb2NrZXJcPg==</entry>
+        <entry encoding="base64">XDxzY2FsYWxvZ2dpbmdcPg==</entry>
+      </history-search>
+      <history-cmd>
+        <entry>718</entry>
+        <entry>29</entry>
+        <entry>120</entry>
+        <entry>178</entry>
+        <entry>27</entry>
+        <entry>63</entry>
+        <entry>196</entry>
+        <entry>xa</entry>
+        <entry>100</entry>
+        <entry>110</entry>
+        <entry>0</entry>
+        <entry>143</entry>
+        <entry>94</entry>
+        <entry>18</entry>
+        <entry>84</entry>
+        <entry>137</entry>
+        <entry>87</entry>
+        <entry>103</entry>
+        <entry>58</entry>
+        <entry>52</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>shift ctrl pressed 6</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed Q</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed N</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+    <editor>
+      <key-repeat enabled="true" />
+    </editor>
+  </component>
+</application>
