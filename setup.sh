@@ -28,7 +28,7 @@ defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
 # Scripts
 
 # Dotfiles?
-cp dotfiles/* $HOME/
+cp -a dotfiles/. $HOME/
 
 # Wallpaper
 # Login items
