@@ -22,13 +22,9 @@ ssh-keygen -t rsa -b 4096 -C "Me MyName (MyDevice) <me@mydomain.com>"
 defaults write com.apple.screencapture location ~/Pictures/Screenshots/; killall SystemUIServer
 defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
 
+# Vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
 
-# Dock setup
-# Launchpad setup
-# Scripts
-
-# Dotfiles?
+# Dotfiles
 cp -a dotfiles/. $HOME/
-
-# Wallpaper
-# Login items
