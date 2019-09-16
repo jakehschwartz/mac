@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo 'Make sure you are logged into the Mac App Store':xa
+
 # Install XCode
 xcode-select --install
 
@@ -8,15 +10,17 @@ xcode-select --install
 
 # Install MAS and log in
 brew install mas
-mas signin --dialog jakehschwartz@gmail.com
 
 # Load brew formulae/casks/mas apps
+brew cask install adoptopenjdk
 brew bundle
+
+sudo xcodebuild -license accept
 
 # Create ssh keys
 mkdir $HOME/.ssh
 chmod 0700 $HOME/.ssh
-ssh-keygen -t rsa -b 4096 -C "Me MyName (MyDevice) <me@mydomain.com>"
+echo 'ssh-keygen -t rsa -b 4096 -C "'$USER'"'
 
 # Mac Defaults
 defaults write com.apple.screencapture location ~/Pictures/Screenshots/; killall SystemUIServer
