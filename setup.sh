@@ -32,3 +32,5 @@ vim +PluginInstall +qall
 
 # Dotfiles
 cp -a dotfiles/. $HOME/
+
+mkdir ~/Dev
