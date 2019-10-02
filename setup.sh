@@ -13,6 +13,8 @@ brew install mas
 
 # Load brew formulae/casks/mas apps
 brew cask install adoptopenjdk
+brew tap caskroom/versions
+brew cask install homebrew/cask-versions/adoptopenjdk8
 brew bundle
 
 sudo xcodebuild -license accept
