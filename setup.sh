@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo 'Make sure you are logged into the Mac App Store':xa
+echo 'Make sure you are logged into the Mac App Store'
 
 # Install XCode
 xcode-select --install
@@ -23,7 +23,7 @@ chmod 0700 $HOME/.ssh
 echo 'ssh-keygen -t rsa -b 4096 -C "'$USER'"'
 
 # Mac Defaults
-defaults write com.apple.screencapture location ~/Pictures/Screenshots/; killall SystemUIServer
+defaults write com.apple.screencapture location ~/Desktop/Screenshots/; killall SystemUIServer
 defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
 
 # Vim
