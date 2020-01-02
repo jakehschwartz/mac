@@ -12,7 +12,4 @@ eval "$(thefuck --alias)"
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
-#AWS Config
-if [ -f $(brew --prefix)/etc/bash_completion.d/um-completion.sh ]; then
-  . $(brew --prefix)/etc/bash_completion.d/um-completion.sh
-fi
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
