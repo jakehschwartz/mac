@@ -1,0 +1,42 @@
+# This is Git's per-user configuration file.
+[core]
+	editor = vim
+	excludesfile = /Users/jakehschwartz/.gitignore_global
+	ignorecase = false
+[interactive]
+	diffFilter = diff-highlight
+[branch]
+	autosetupmerge = false
+[color]
+	ui = true
+[alias]
+	aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /' | sort | grep -v "aliases"
+	cleanup = branch --merged origin/master | grep -v 'master|develop' | xargs -n 1 git branch -d
+	prune = fetch --prune
+	search = log --no-merges -i -E --pretty='%h (%ad) - [%an] %s %d' --date=format:'%b %d %Y' --grep
+	showdiff = "!f() { git difftool $1^ $1; }; f"
+	staged = difftool --cached
+	undo = reset --soft HEAD^
+	unmerged = branch --no-merged | grep -v 'master|develop'
+	stat = status --short --branch
+[commit]
+	template = ~/.gitmessage
+[diff]
+	compactionHeuristic = true
+	tool = icdiff
+[difftool]
+	prompt = false
+[difftool "icdiff"]
+	  cmd = /usr/bin/icdiff --line-numbers $LOCAL $REMOTE
+[pager]
+	  difftool = true
+[push]
+	default = simple
+	followTags = true
+[status]
+	showUntrackedFiles = all
+[user]
+ 	name = Jake Schwartz
+ 	email = jakehschwartz@gmail.com
+[rebase]
+	autosquash = true
