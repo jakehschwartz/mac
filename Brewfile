@@ -15,6 +15,7 @@ brew "awscli"
 brew "bat"
 brew "blueutil"
 brew "fx"
+brew "fzf"
 brew "git"
 brew "giter8"
 brew "gmp"
@@ -53,7 +54,6 @@ cask "spotify"
 cask "tunnelblick"
 cask "visualvm"
 cask "vlc"
-cask "wavebox"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
