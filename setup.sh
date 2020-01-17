@@ -33,6 +33,6 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 
 # Dotfiles
-cd /dotfiles && for i in `ls `; do ln -s $PWD/$i ~/.$i; done
+cd dotfiles && for i in `ls `; do ln -s $PWD/$i ~/.$i; done && cd ..
 
 mkdir ~/Dev

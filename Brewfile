@@ -1,4 +1,11 @@
-tap "caskroom/versions"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pixelmator", id: 407963104
+mas "Xcode", id: 497799835
+tap "caskroom/cask-versions"
 tap "clintmod/formulas"
 tap "elastic/tap"
 tap "homebrew/bundle"
@@ -45,7 +52,6 @@ cask "iterm2"
 cask "java8"
 cask "megasync"
 cask "postman"
-cask "qlmarkdown"
 cask "qlvideo"
 cask "quicklook-json"
 cask "remembear"
@@ -54,10 +60,4 @@ cask "spotify"
 cask "tunnelblick"
 cask "visualvm"
 cask "vlc"
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Pixelmator", id: 407963104
-mas "Xcode", id: 497799835
+
