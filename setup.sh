@@ -36,3 +36,6 @@ vim +PluginInstall +qall
 cd dotfiles && for i in `ls `; do ln -s $PWD/$i ~/.$i; done && cd ..
 
 mkdir ~/Dev
+
+git config --global core.excludesfile ~/.gitignore_global
+

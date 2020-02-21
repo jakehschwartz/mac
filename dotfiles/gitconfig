@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [core]
 	editor = vim
-	excludesfile = /Users/jakehschwartz/.gitignore_global
+	excludesfile = /Users/macmini/.gitignore_global
 	ignorecase = false
 [interactive]
 	diffFilter = diff-highlight
