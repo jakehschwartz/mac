@@ -5,8 +5,12 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'dracula/vim'
 
+Plugin 'christoomey/vim-tmux-navigator'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+nmap 0 ^<cr> 
 
 set undofile " Maintain undo history between sessions
 set undodir=~/.vim/undodir
