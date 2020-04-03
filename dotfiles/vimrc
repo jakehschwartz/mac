@@ -7,6 +7,9 @@ Plugin 'dracula/vim'
 
 Plugin 'christoomey/vim-tmux-navigator'
 
+Plugin 'camspiers/animate.vim'
+Plugin 'camspiers/lens.vim'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
