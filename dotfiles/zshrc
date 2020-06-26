@@ -39,6 +39,7 @@ antigen theme romkatv/powerlevel10k
 antigen apply
 
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+export PATH="$PATH:$HOME/Dev/flutter/bin"
 
 alias json="pbpaste | fx ."
 alias utc='zdump UTC'
