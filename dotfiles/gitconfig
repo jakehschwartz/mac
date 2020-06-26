@@ -40,3 +40,20 @@
  	email = jakehschwartz@gmail.com
 [rebase]
 	autosquash = true
+[gitflow "branch"]
+	master = master
+	develop = develop
+[gitflow "prefix"]
+	feature = ENG-
+	bugfix = ENG-
+	release = release_
+	hotfix = hotfix_
+	support = ENG-
+	versiontag =
+[pull]
+	rebase = false
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f

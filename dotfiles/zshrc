@@ -40,13 +40,20 @@ antigen apply
 
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export PATH="$PATH:$HOME/Dev/flutter/bin"
+export AWS_DEFAULT_PROFILE=Google-PlatformEng
 
 alias json="pbpaste | fx ."
 alias utc='zdump UTC'
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 alias mux='tmuxinator'
+alias push='git push origin HEAD'
+alias pr='git push origin HEAD && open $(gh pr create -f)'
+alias faws=": > ~/.aws/credentials;wait 8; saml2aws login --region us-east-1;grep -ilr 'Google-PlatformEng' ~/.aws/credentials | xargs -I@ sed -i '' 's/Google-PlatformEng/default/g' @; sed -i '' 's/region.*/region=us-east-1/' ~/.aws/credentials"
+
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
