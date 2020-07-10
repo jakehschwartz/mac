@@ -40,7 +40,6 @@ antigen apply
 
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export PATH="$PATH:$HOME/Dev/flutter/bin"
-export AWS_DEFAULT_PROFILE=Google-PlatformEng
 
 alias json="pbpaste | fx ."
 alias utc='zdump UTC'
