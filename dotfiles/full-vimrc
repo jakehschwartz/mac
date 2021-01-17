@@ -1,0 +1,75 @@
+" Plugins
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'dracula/vim'
+
+Plugin 'christoomey/vim-tmux-navigator'
+
+Plugin 'justinmk/vim-sneak'
+
+Plugin 'camspiers/animate.vim'
+Plugin 'camspiers/lens.vim'
+
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
+
+call vundle#end()
+filetype plugin indent on
+" End Plugins
+
+nmap 0 ^<cr> 
+
+set undofile " Maintain undo history between sessions
+set undodir=~/.vim/undodir
+
+set ruler
+
+set relativenumber 
+set number
+
+nnoremap <Up> <NOP>
+nnoremap <Down> <NOP>
+nnoremap <Left> <NOP>
+nnoremap <Right> <NOP>
+
+set splitbelow
+set splitright
+
+nnoremap <C-\> <C-w>v
+nnoremap <C-_> <C-w>s
+
+nnoremap <C-Down> <C-W><C-J>
+nnoremap <C-Up> <C-W><C-K>
+nnoremap <C-Right> <C-W><C-L>
+nnoremap <C-Left> <C-W><C-H>
+
+set backspace=eol,start
+
+map 0 ^
+
+set showmatch
+
+syntax on
+color dracula
+
+" By default don't wrap lines
+set nowrap 
+
+" But do wrap on these types of files...
+autocmd FileType markdown setlocal wrap
+autocmd Filetype gitcommit setlocal spell textwidth=72
+
+" j and k don't skip over wrapped lines in following FileTypes, unless given a
+" count (helpful since I display relative line numbers in these file types)
+autocmd FileType markdown,text vnoremap <expr> j v:count ? 'j' : 'gj'
+autocmd FileType markdown,text vnoremap <expr> k v:count ? 'k' : 'gk'
+
+nnoremap <Leader>rc :vsplit $MYVIMRC<cr>;
+augroup autosourcing
+	autocmd!
+	autocmd BufWritePost .vimrc source %
+augroup END
+

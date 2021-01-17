@@ -1,0 +1,29 @@
+"---------- General Settings -------
+"Syntax Highlighting
+syntax on
+
+"Maintain undo history between sessions
+set undofile 
+set undodir=~/.vim/undodir
+
+"Keep format when pasting
+set paste
+
+"--------------- Layout ------------
+"Show line number and column number
+set ruler
+
+"Show relative line numbers to current line and the current number
+set relativenumber
+set number
+
+"Show matching brackets
+set showmatch matchtime=3
+"-------------- Movement -----------
+"Disable arrow keys in Normal mode
+nnoremap <Up> <NOP>
+nnoremap <Down> <NOP>
+nnoremap <Left> <NOP>
+nnoremap <Right> <NOP>
+
+
