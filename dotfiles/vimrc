@@ -1,10 +1,24 @@
 "---------- General Settings -------
+"Leader is comma
+let mapleader=","
+
+"Fix backspace issues
+:set backspace=indent,eol,start
+
+"Disable swap file
+set noswapfile
+
 "Syntax Highlighting
 syntax on
+"Allow customization of indentation by file type
+filetype plugin indent on
 
 "Maintain undo history between sessions
 set undofile 
 set undodir=~/.vim/undodir
+
+"Use a visual bell instead of beeping
+set visualbell
 
 "Keep format when pasting
 set paste
@@ -19,6 +33,24 @@ set number
 
 "Show matching brackets
 set showmatch matchtime=3
+
+"Highlight all search results
+set hlsearch
+"Do case insensitive search 
+set ignorecase  
+"Show incremental search results as you type
+set incsearch   
+
+" Vertical splits split right
+set splitright
+" Splits split below
+set splitbelow
+
+"Tabs are spaces
+set expandtab
+" number of visual spaces per TAB
+set tabstop=2
+set softtabstop=2
 "-------------- Movement -----------
 "Disable arrow keys in Normal mode
 nnoremap <Up> <NOP>
@@ -26,4 +58,6 @@ nnoremap <Down> <NOP>
 nnoremap <Left> <NOP>
 nnoremap <Right> <NOP>
 
-
+"-------------- Sessions -----------
+" save session
+nnoremap <leader>s :mksession<CR>
