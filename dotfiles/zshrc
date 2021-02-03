@@ -12,9 +12,7 @@ antigen bundle autojump
 antigen bundle brew
 antigen bundle common-aliases
 antigen bundle copyfile
-antigen bundle fzf
 antigen bundle git
-antigen bundle httpie
 antigen bundle osx
 antigen bundle sbt
 antigen bundle thefuck
@@ -56,3 +54,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+export EDITOR=/usr/bin/vim
+
