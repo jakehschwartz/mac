@@ -36,6 +36,8 @@ set showmatch matchtime=3
 
 "Highlight all search results
 set hlsearch
+"Clear highlight by pressing esc
+nnoremap <esc> :noh<return><esc>
 "Do case insensitive search 
 set ignorecase  
 "Show incremental search results as you type
