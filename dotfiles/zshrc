@@ -36,16 +36,30 @@ antigen theme romkatv/powerlevel10k
 
 antigen apply
 
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export PATH="$PATH:$HOME/Dev/flutter/bin"
+export AUTOSWITCH_DEFAULT_PYTHON="/usr/local/bin/python3"
+
+export MONGODB_USERNAME="JakeSchwartz" # IGNORE
+export MONGODB_PASSWORD="2CcKHTBEMV7ZRdOO" # IGNORE
+export MONGODB_USERNAME_WRITE="readwriteany" # IGNORE
+export MONGODB_PASSWORD_WRITE="DqguHUcrNYHVC8zYX8gchm" # IGNORE
+
+alias pip="pip3"
 
 alias json="pbpaste | fx ."
 alias utc='zdump UTC'
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 alias mux='tmuxinator'
-alias push='git push origin HEAD'
-alias pr='git push origin HEAD && open $(gh pr create -f)'
-alias faws=": > ~/.aws/credentials;wait 8; saml2aws login --region us-east-1;grep -ilr 'Google-PlatformEng' ~/.aws/credentials | xargs -I@ sed -i '' 's/Google-PlatformEng/default/g' @; sed -i '' 's/region.*/region=us-east-1/' ~/.aws/credentials"
+faws(){
+  if [ "$1" = "prod" ]; then
+    region="us-east-1"
+    echo 'Logging into ' $region
+  else
+    region="us-west-2"
+    echo 'Logging into ' $region
+  fi
+  : > ~/.aws/credentials; saml2aws login --session-duration=43200 --region $region --skip-prompt --skip-verify;grep -ilr 'Google-PlatformEng' ~/.aws/credentials | xargs -I@ sed -i '' 's/Google-PlatformEng/default/g' @; sed -i '' 's/region.*/region='$region'/' ~/.aws/credentials
+}
 
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
