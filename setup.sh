@@ -29,8 +29,8 @@ defaults write com.apple.screencapture location ~/Desktop/Screenshots/; killall 
 defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
 
 # Vim
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim +PluginInstall +qall
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # Dotfiles
 cd dotfiles && for i in `ls `; do ln -s $PWD/$i ~/.$i; done && cd ..
