@@ -99,7 +99,6 @@ cask "notion"
 # Collaboration platform for API development
 cask "postman"
 # QuickLook generator for Markdown files
-cask "qlmarkdown"
 cask "qlvideo"
 cask "quicklook-json"
 cask "remembear"
