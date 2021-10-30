@@ -71,3 +71,4 @@ eval "$(jenv init -)"
 
 export EDITOR=/usr/bin/vim
 
+export PATH="/usr/local/opt/python@3.9/bin:$PATH"

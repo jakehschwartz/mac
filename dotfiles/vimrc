@@ -29,9 +29,6 @@ set undodir=~/.vim/undodir
 "Use a visual bell instead of beeping
 set visualbell
 
-"Keep format when pasting
-set paste
-
 "--------------- Layout ------------
 "Show line number and column number
 set ruler
