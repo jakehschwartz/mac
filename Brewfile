@@ -101,8 +101,6 @@ brew "vim"
 brew "zsh"
 # This package contains standard utilities for interacting with MongoDB.
 brew "mongodb/brew/mongodb-database-tools"
-# JDK from the Java User Group (JUG)
-cask "adoptopenjdk"
 # Tool to remove unnecessary files and folders from disk
 cask "cleanmymac"
 # App to build and share containerized applications and microservices
@@ -120,7 +118,6 @@ cask "iina"
 cask "intellij-idea"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-cask "java8"
 # Syncs files between computers and MEGA Cloud drives
 cask "megasync"
 # App to write, plan, collaborate, and get organized
