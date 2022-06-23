@@ -1,11 +1,36 @@
 # Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+. "$HOME/.fig/shell/zshrc.pre.zsh"
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block, everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init --path)"
+  eval "$(pyenv init -)"
+fi
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
+alias pip="pip3"
+
+alias json="pbpaste | jq -C \".\""
+alias utc='zdump UTC'
+alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+alias mux='tmuxinator'
+faws(){
+  if [ "$1" = "prod" ]; then
+    region="us-east-1"
+    echo 'Logging into ' $region
+  else
+    region="us-west-2"
+    echo 'Logging into ' $region
+  fi
+  : > ~/.aws/credentials; saml2aws login --session-duration=43200 --region $region --skip-prompt --skip-verify;grep -ilr 'Google-PlatformEng' ~/.aws/credentials | xargs -I@ sed -i '' 's/Google-PlatformEng/default/g' @; sed -i '' 's/region.*/region='$region'/' ~/.aws/credentials
+}
 
 source $(brew --prefix)/share/antigen/antigen.zsh
 antigen use oh-my-zsh
@@ -38,7 +63,6 @@ antigen theme romkatv/powerlevel10k
 
 antigen apply
 
-export PATH="$PATH:$HOME/Dev/flutter/bin"
 export AUTOSWITCH_DEFAULT_PYTHON="/usr/local/bin/python3"
 
 export MONGODB_USERNAME="JakeSchwartz" # IGNORE
@@ -46,45 +70,19 @@ export MONGODB_PASSWORD="2CcKHTBEMV7ZRdOO" # IGNORE
 export MONGODB_USERNAME_WRITE="readwriteany" # IGNORE
 export MONGODB_PASSWORD_WRITE="DqguHUcrNYHVC8zYX8gchm" # IGNORE
 
-alias pip="pip3"
-
-alias json="pbpaste | jq -C \".\""
-alias utc='zdump UTC'
-alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
-alias mux='tmuxinator'
-faws(){
-  if [ "$1" = "prod" ]; then
-    region="us-east-1"
-    echo 'Logging into ' $region
-  else
-    region="us-west-2"
-    echo 'Logging into ' $region
-  fi
-  : > ~/.aws/credentials; saml2aws login --session-duration=43200 --region $region --skip-prompt --skip-verify;grep -ilr 'Google-PlatformEng' ~/.aws/credentials | xargs -I@ sed -i '' 's/Google-PlatformEng/default/g' @; sed -i '' 's/region.*/region='$region'/' ~/.aws/credentials
-}
-
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
 
 export EDITOR=/usr/bin/vim
-
-export PATH="/usr/local/opt/python@3.9/bin:$PATH"
-export JAVA8_HOME=/Users/macmini/.sdkman/candidates/java/8.0.322-tem
-
-[ -s "/Users/macmini/.web3j/source.sh" ] && source "/Users/macmini/.web3j/source.sh"
-
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] &&
+
+# Fig post block. Keep at the bottom of this file.
+. "$HOME/.fig/shell/zshrc.post.zsh"

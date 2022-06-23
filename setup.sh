@@ -8,13 +8,14 @@ xcode-select --install
 # Install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+# Install SDKMAN
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
 # Install MAS and log in
 brew install mas
 
 # Load brew formulae/casks/mas apps
-brew cask install adoptopenjdk
-brew tap caskroom/versions
-brew cask install homebrew/cask-versions/adoptopenjdk8
 brew bundle
 
 sudo xcodebuild -license accept
