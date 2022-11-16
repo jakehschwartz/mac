@@ -1,7 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-. "$HOME/.fig/shell/zshrc.pre.zsh"
-# Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block, everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
@@ -46,6 +42,8 @@ antigen bundle thefuck
 antigen bundle tmux
 antigen bundle tmuxinator
 
+antigen bundle "MichaelAquilina/zsh-autoswitch-virtualenv"
+
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 
@@ -55,15 +53,12 @@ antigen bundle zsh-users/zsh-autosuggestions
 # Extra zsh completions
 antigen bundle zsh-users/zsh-completions
 
-# Virtual environment niceities
-antigen bundle MichaelAquilina/zsh-autoswitch-virtualenv
-
 # Load the theme
 antigen theme romkatv/powerlevel10k
 
 antigen apply
 
-export AUTOSWITCH_DEFAULT_PYTHON="/usr/local/bin/python3"
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 export MONGODB_USERNAME="JakeSchwartz" # IGNORE
 export MONGODB_PASSWORD="2CcKHTBEMV7ZRdOO" # IGNORE
@@ -81,8 +76,8 @@ export EDITOR=/usr/bin/vim
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] &&
+eval $(thefuck --alias)
 
-# Fig post block. Keep at the bottom of this file.
-. "$HOME/.fig/shell/zshrc.post.zsh"
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/jakeschwartz/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
