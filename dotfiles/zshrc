@@ -15,6 +15,8 @@ alias pip="pip3"
 alias gclup="git branch --merged | grep -v -e master -e main -e develop | xargs git branch -d"
 
 alias json="pbpaste | jq -C \".\""
+alias jsonout="pbpaste | jq \".\""
+alias cj="jq -C \".\""
 alias utc='zdump UTC'
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 alias mux='tmuxinator'

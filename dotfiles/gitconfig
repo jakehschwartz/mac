@@ -4,6 +4,7 @@
 	excludesfile = /Users/macmini/.gitignore_global
 	ignorecase = false
 	pager = 
+	autocrlf = input
 [interactive]
 	diffFilter = diff-highlight
 [branch]
