@@ -28,7 +28,7 @@ faws(){
     region="us-west-2"
     echo 'Logging into ' $region
   fi
-  : > ~/.aws/credentials; saml2aws login --session-duration=43200 --region $region --skip-prompt --skip-verify;grep -ilr 'Google-PlatformEng' ~/.aws/credentials | xargs -I@ sed -i '' 's/Google-PlatformEng/default/g' @; sed -i '' 's/region.*/region='$region'/' ~/.aws/credentials
+  : > ~/.aws/credentials; saml2aws login --session-duration=43200 --region $region --skip-prompt --skip-verify;grep -ilr 'Google-PlatformEng' ~/.aws/credentials | sed -i '' 's/region.*/region='$region'/' ~/.aws/credentials
 }
 
 source $(brew --prefix)/share/antigen/antigen.zsh
