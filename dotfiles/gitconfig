@@ -24,6 +24,8 @@
 [commit]
 	template = ~/.gitmessage
 [diff]
+  algorithm = histogram
+  colorMoved = default
 	compactionHeuristic = true
 	tool = icdiff
 [difftool]
@@ -35,6 +37,7 @@
 [push]
 	default = simple
 	followTags = true
+  autoSetupRemote = true
 [status]
 	showUntrackedFiles = all
 [user]
@@ -53,7 +56,7 @@
 	support = ENG-
 	versiontag =
 [pull]
-	rebase = false
+	rebase = true
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
@@ -63,3 +66,6 @@
 	helper = osxkeychain
 [init]
 	defaultBranch = main
+[merge]
+  conflictstyle = zdiff3
+  tool = meld

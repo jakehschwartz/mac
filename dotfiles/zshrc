@@ -33,6 +33,8 @@ faws(){
   : > ~/.aws/credentials; saml2aws login --session-duration=43200 --region $region --skip-prompt --skip-verify;grep -ilr 'Google-PlatformEng' ~/.aws/credentials | sed -i '' 's/region.*/region='$region'/' ~/.aws/credentials
 }
 
+export AWS_PROFILE="Google-PlatformEng"
+
 source $(brew --prefix)/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 
