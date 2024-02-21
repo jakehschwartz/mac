@@ -1,44 +1,64 @@
 tap "github/gh"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
 tap "homebrew/services"
+tap "kitlangton/tap"
 tap "mongodb/brew"
 tap "versent/taps"
-# Ammonite is a cleanroom re-implementation of the Scala REPL
-brew "ammonite-repl"
-# Plugin manager for zsh, inspired by oh-my-zsh and vundle
-brew "antigen"
-# Shell extension to jump to frequently used directories
-brew "autojump"
-# Official Amazon AWS command-line interface
-brew "awscli"
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
+tap "virtuslab/scala-cli"
 # Core application library for C
 brew "glib"
 # Manage compile and link flags for libraries
 brew "pkg-config"
 # Vector graphics library with cross-device output support
 brew "cairo"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Ammonite is a cleanroom re-implementation of the Scala REPL
+brew "ammonite-repl"
+# Plugin manager for zsh, inspired by oh-my-zsh and vundle
+brew "antigen"
+# New file format for still image compression
+brew "jpeg-xl"
+# Codec library for encoding and decoding AV1 video streams
+brew "aom"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Shell extension to jump to frequently used directories
+brew "autojump"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Enables you to reproduce the CircleCI environment locally
 brew "circleci"
 # GNU multiple precision arithmetic library
 brew "gmp"
-# GNU Ubiquitous Intelligent Language for Extensions
-brew "guile"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
-# Generate introspection data for GObject libraries
-brew "gobject-introspection"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# Generic machine emulator and virtualizer
+brew "qemu"
+# Linux virtual machines
+brew "lima"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
+# Isolated development environments using Docker
+brew "docker-compose"
 # Subtitle renderer for the ASS/SSA subtitle format
 brew "libass"
 # Secure Reliable Transport
 brew "srt"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Platform built on V8 to build network applications
+brew "node"
 # Terminal JSON viewer
 brew "fx"
 # Test automation tool that supports executable documentation
@@ -53,14 +73,18 @@ brew "git-flow-avh"
 brew "git-lfs"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
+# Library to render SVG files using Cairo
+brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
+# GNU Ubiquitous Intelligent Language for Extensions
+brew "guile"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Fast and flexible C++ library for working with OpenStreetMap data
 brew "libosmium"
-# Keep your Mac's application settings in sync
-brew "mackup"
 # Mac App Store command-line interface
 brew "mas"
 # Java-based project management
@@ -69,8 +93,14 @@ brew "maven"
 brew "mongosh"
 # Python dependency management tool
 brew "pipenv"
+# Object-relational database system
+brew "postgresql@14"
+# Python version management
+brew "pyenv"
+# Pyenv plugin to manage virtualenv
+brew "pyenv-virtualenv"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
+brew "python@3.9"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
 # Persistent key-value database, with built-in net interface
@@ -85,6 +115,8 @@ brew "ruby"
 brew "saml2aws"
 # Build tool for Scala projects
 brew "sbt"
+# Command-line utility for Structurizr
+brew "structurizr-cli"
 # Programmatically correct mistyped console commands
 brew "thefuck"
 # Simplified and community-driven man pages
@@ -99,16 +131,25 @@ brew "tree"
 brew "vim"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Update your Scala dependencies interactively
+brew "kitlangton/tap/scala-update"
 # This package contains standard utilities for interacting with MongoDB.
 brew "mongodb/brew/mongodb-database-tools"
+# High-performance, schema-free, document-oriented database
+brew "mongodb/brew/mongodb-community"
+# Launcher for ScalaCli
+brew "virtuslab/scala-cli/scala-cli"
+# Opensource IDE for exploring and testing api's
+cask "bruno"
 # Tool to remove unnecessary files and folders from disk
 cask "cleanmymac"
-# App to build and share containerized applications and microservices
+# App to build and share containerised applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Reimagine your terminal
 cask "fig"
+# Free monospaced font with programming ligatures
 cask "font-fira-code"
 # Web browser
 cask "google-chrome"
@@ -120,12 +161,16 @@ cask "intellij-idea"
 cask "iterm2"
 # Syncs files between computers and MEGA Cloud drives
 cask "megasync"
-# App to write, plan, collaborate, and get organized
+# GUI for MongoDB
+cask "mongodb-compass-beta"
+# TouchBar customization app
+cask "mtmr"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# App to write, plan, collaborate, and get organised
 cask "notion"
 # Collaboration platform for API development
 cask "postman"
-cask "qlvideo"
-cask "remembear"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
