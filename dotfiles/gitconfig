@@ -1,0 +1,69 @@
+# This is Git's per-user configuration file.
+[core]
+	editor = vim
+	excludesfile = /Users/macmini/.gitignore_global
+	ignorecase = false
+	pager = 
+	autocrlf = input
+[interactive]
+	diffFilter = diff-highlight
+[branch]
+	autosetupmerge = false
+[color]
+	ui = true
+[alias]
+	aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /' | sort | grep -v "aliases"
+	cleanup = branch --merged origin/master | grep -v 'master|develop' | xargs -n 1 git branch -d
+	prune = fetch --prune
+	search = log --no-merges -i -E --pretty='%h (%ad) - [%an] %s %d' --date=format:'%b %d %Y' --grep
+	showdiff = "!f() { git difftool $1^ $1; }; f"
+	staged = difftool --cached
+	undo = reset --soft HEAD^
+	unmerged = branch --no-merged | grep -v 'master|develop'
+	stat = status --short --branch
+[commit]
+	template = ~/.gitmessage
+[diff]
+  algorithm = histogram
+  colorMoved = default
+	compactionHeuristic = true
+	tool = icdiff
+[difftool]
+	prompt = false
+[difftool "icdiff"]
+	  cmd = /usr/bin/icdiff --line-numbers $LOCAL $REMOTE
+[pager]
+	  difftool = true
+[push]
+	default = simple
+	followTags = true
+  autoSetupRemote = true
+[status]
+	showUntrackedFiles = all
+[user]
+ 	name = Jake Schwartz
+ 	email = jakehschwartz@gmail.com
+[rebase]
+	autosquash = true
+[gitflow "branch"]
+	master = master
+	develop = develop
+[gitflow "prefix"]
+	feature = ENG-
+	bugfix = ENG-
+	release = release_
+	hotfix = hotfix_
+	support = ENG-
+	versiontag =
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[credential]
+	helper = osxkeychain
+[init]
+	defaultBranch = main
+[merge]
+  conflictstyle = zdiff3
+  tool = meld

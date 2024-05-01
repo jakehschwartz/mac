@@ -1,0 +1,86 @@
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init --path)"
+  eval "$(pyenv init -)"
+fi
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
+alias pip="pip3"
+alias python="python3"
+
+alias gclup="git branch --merged | grep -v -e master -e main -e develop | xargs git branch -d"
+
+alias json="pbpaste | jq -C \".\""
+alias jsonout="pbpaste | jq \".\""
+alias cj="jq -C \".\""
+alias utc='zdump UTC'
+alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+alias mux='tmuxinator'
+faws(){
+  if [ "$1" = "prod" ]; then
+    region="us-east-1"
+    echo 'Logging into ' $region
+  else
+    region="us-west-2"
+    echo 'Logging into ' $region
+  fi
+  : > ~/.aws/credentials; saml2aws login --session-duration=43200 --region $region --skip-prompt --skip-verify;grep -ilr 'Google-PlatformEng' ~/.aws/credentials | sed -i '' 's/region.*/region='$region'/' ~/.aws/credentials
+}
+
+export AWS_PROFILE="Google-PlatformEng"
+
+source $(brew --prefix)/share/antigen/antigen.zsh
+antigen use oh-my-zsh
+
+antigen bundle autojump
+antigen bundle brew
+antigen bundle common-aliases
+antigen bundle copyfile
+antigen bundle git
+antigen bundle osx
+antigen bundle sbt
+antigen bundle thefuck
+antigen bundle tmux
+antigen bundle tmuxinator
+
+antigen bundle "MichaelAquilina/zsh-autoswitch-virtualenv"
+
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Fish-like auto suggestions
+antigen bundle zsh-users/zsh-autosuggestions
+
+# Extra zsh completions
+antigen bundle zsh-users/zsh-completions
+
+antigen apply
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+export EDITOR=/usr/bin/vim
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+eval $(thefuck --alias)
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/jakeschwartz/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+# The following lines were added by compinstall
+zstyle :compinstall filename '/Users/macmini/.zshrc'
+
+autoload -Uz compinit
+# End of lines added by compinstall
+
+# >>> scala-cli completions >>>
+fpath=("/Users/jakeschwartz/Library/Application Support/ScalaCli/completions/zsh" $fpath)
+compinit
+# <<< scala-cli completions <<<
+
+export STARSHIP_CONFIG=~/Dev/dotfiles/starship.toml
+eval "$(starship init zsh)"
+
+
