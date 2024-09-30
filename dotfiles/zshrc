@@ -76,6 +76,10 @@ zstyle :compinstall filename '/Users/macmini/.zshrc'
 autoload -Uz compinit
 # End of lines added by compinstall
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
 # >>> scala-cli completions >>>
 fpath=("/Users/jakeschwartz/Library/Application Support/ScalaCli/completions/zsh" $fpath)
 compinit
@@ -84,9 +88,7 @@ compinit
 export STARSHIP_CONFIG=~/Dev/dotfiles/starship.toml
 eval "$(starship init zsh)"
 
-
-
 # Created by `pipx` on 2024-07-02 14:20:48
 export PATH="$PATH:/Users/jakeschwartz/.local/bin"
-
-export PATH=$PATH:/Users/jakeschwartz/.spicetify
+export PATH="$PATH:/Users/jakeschwartz/.spicetify"
+export PATH="/usr/local/sbin:$PATH"
