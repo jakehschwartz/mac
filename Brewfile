@@ -157,8 +157,6 @@ cask "cleanmymac"
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
-# Reimagine your terminal
-cask "fig"
 cask "font-fira-code"
 # Web browser
 cask "google-chrome"
@@ -195,9 +193,5 @@ cask "vlc"
 # Web browser
 cask "wavebox"
 mas "Brother iPrint&Scan", id: 1193539993
-mas "GarageBand", id: 682658836
-mas "HP Smart", id: 1474276998
-mas "iMovie", id: 408981434
 mas "Pixelmator", id: 407963104
-mas "Shortery", id: 1594183810
 mas "Xcode", id: 497799835
