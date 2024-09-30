@@ -8,6 +8,7 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 alias pip="pip3"
 alias python="python3"
 
+alias gab="git absorb --and-rebase"
 alias gclup="git branch --merged | grep -v -e master -e main -e develop | xargs git branch -d"
 
 alias json="pbpaste | jq -C \".\""
@@ -84,3 +85,8 @@ export STARSHIP_CONFIG=~/Dev/dotfiles/starship.toml
 eval "$(starship init zsh)"
 
 
+
+# Created by `pipx` on 2024-07-02 14:20:48
+export PATH="$PATH:/Users/jakeschwartz/.local/bin"
+
+export PATH=$PATH:/Users/jakeschwartz/.spicetify

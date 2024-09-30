@@ -67,3 +67,5 @@
 [merge]
   conflictstyle = zdiff3
   tool = meld
+[absorb]
+  autoStageIfNothingStaged = true

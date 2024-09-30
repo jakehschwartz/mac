@@ -1,16 +1,16 @@
 tap "github/gh"
+tap "grishka/grishka"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/services"
 tap "kitlangton/tap"
 tap "mongodb/brew"
+tap "pulumi/tap"
 tap "versent/taps"
 tap "virtuslab/scala-cli"
 # Core application library for C
 brew "glib"
-# Manage compile and link flags for libraries
-brew "pkg-config"
 # Vector graphics library with cross-device output support
 brew "cairo"
 # OpenType text shaping engine
@@ -67,12 +67,16 @@ brew "gauge"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Automatic git commit --fixup
+brew "git-absorb"
 # AVH edition of git-flow
 brew "git-flow-avh"
 # Git extension for versioning large files
 brew "git-lfs"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Manage compile and link flags for libraries
+brew "pkg-config"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
 # Library to render SVG files using Cairo
@@ -81,6 +85,8 @@ brew "librsvg"
 brew "graphviz"
 # GNU Ubiquitous Intelligent Language for Extensions
 brew "guile"
+# JSON diff and patch
+brew "jd"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Fast and flexible C++ library for working with OpenStreetMap data
@@ -93,6 +99,8 @@ brew "maven"
 brew "mongosh"
 # Python dependency management tool
 brew "pipenv"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
 # Object-relational database system
 brew "postgresql@14"
 # Python version management
@@ -115,6 +123,8 @@ brew "ruby"
 brew "saml2aws"
 # Build tool for Scala projects
 brew "sbt"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Command-line utility for Structurizr
 brew "structurizr-cli"
 # Programmatically correct mistyped console commands
@@ -137,6 +147,8 @@ brew "kitlangton/tap/scala-update"
 brew "mongodb/brew/mongodb-database-tools"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
+# Pulumi - Modern Infrastructure as Code. Any cloud, any language 
+brew "pulumi/tap/pulumi"
 # Launcher for ScalaCli
 brew "virtuslab/scala-cli/scala-cli"
 # Tool to remove unnecessary files and folders from disk
@@ -147,20 +159,23 @@ cask "docker"
 cask "dropbox"
 # Reimagine your terminal
 cask "fig"
-# Free monospaced font with programming ligatures
 cask "font-fira-code"
 # Web browser
 cask "google-chrome"
+# Dedicated scratchpad for developers
+cask "heynote"
 # Free and open-source media player
 cask "iina"
 # Java IDE by JetBrains
 cask "intellij-idea"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Clipboard manager
+cask "maccy"
 # Syncs files between computers and MEGA Cloud drives
 cask "megasync"
 # GUI for MongoDB
-cask "mongodb-compass-beta"
+cask "mongodb-compass@beta"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # App to write, plan, collaborate, and get organised
@@ -171,6 +186,8 @@ cask "postman"
 cask "slack"
 # Music streaming service
 cask "spotify"
+# Sync and backup service to Synology NAS drives
+cask "synology-drive"
 # Unpacks archive files
 cask "the-unarchiver"
 # Multimedia player
@@ -179,7 +196,8 @@ cask "vlc"
 cask "wavebox"
 mas "Brother iPrint&Scan", id: 1193539993
 mas "GarageBand", id: 682658836
+mas "HP Smart", id: 1474276998
 mas "iMovie", id: 408981434
 mas "Pixelmator", id: 407963104
-mas "The Unarchiver", id: 425424353
+mas "Shortery", id: 1594183810
 mas "Xcode", id: 497799835
