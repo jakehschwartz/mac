@@ -28,7 +28,7 @@ faws(){
 export AWS_PROFILE="Google-PlatformEng"
 
 export ANTIDOTE_HOME=~/.cache/antidote
-source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
+source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
 source <(antidote init)
 
 antidote bundle getantidote/use-omz
