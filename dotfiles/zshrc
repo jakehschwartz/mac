@@ -1,3 +1,11 @@
+DISABLE_AUTO_UPDATE="true"
+DISABLE_MAGIC_FUNCTIONS="true"
+DISABLE_COMPFIX="true"
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="20"
+ZSH_AUTOSUGGEST_USE_ASYNC=1
+
+export PATH=/opt/homebrew/opt/python@3.13/libexec/bin:$PATH
+
 alias json="pbpaste | jq -C \".\""
 alias jsonout="pbpaste | jq \".\""
 alias cj="jq -C \".\""
@@ -20,7 +28,7 @@ faws(){
 export AWS_PROFILE="Google-PlatformEng"
 
 export ANTIDOTE_HOME=~/.cache/antidote
-source /usr/local/opt/antidote/share/antidote/antidote.zsh
+source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
 source <(antidote init)
 
 antidote bundle getantidote/use-omz
@@ -29,8 +37,8 @@ antidote bundle ohmyzsh/ohmyzsh path:plugins/git
 antidote bundle ohmyzsh/ohmyzsh path:plugins/1password
 antidote bundle ohmyzsh/ohmyzsh path:plugins/autojump
 antidote bundle ohmyzsh/ohmyzsh path:plugins/thefuck
-
 antidote bundle MichaelAquilina/zsh-autoswitch-virtualenv
+
 
 # Syntax highlighting bundle.
 antidote bundle zsh-users/zsh-syntax-highlighting
@@ -56,8 +64,13 @@ export PATH="/Users/jakeschwartz/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 # The following lines were added by compinstall
-zstyle :compinstall filename '/Users/macmini/.zshrc'
+zstyle :compinstall filename '~/.zshrc'
 autoload -Uz compinit
+if [ "$(date +'%j')" != "$(stat -f '%Sm' -t '%j' ~/.zcompdump 2>/dev/null)" ]; then
+    compinit
+else
+    compinit -C
+fi
 # End of lines added by compinstall
 
 export NVM_DIR="$HOME/.nvm"
