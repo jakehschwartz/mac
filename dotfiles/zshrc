@@ -4,9 +4,7 @@ DISABLE_COMPFIX="true"
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="20"
 ZSH_AUTOSUGGEST_USE_ASYNC=1
 
-BREWPATH='/opt/homebrew'
-
-export PATH=$BREWPATH/opt/python@3.13/libexec/bin:$PATH
+export PATH=$HOMEBREW_PREFIX/opt/python@3.13/libexec/bin:$PATH
 
 alias json="pbpaste | jq -C \".\""
 alias jsonout="pbpaste | jq \".\""
@@ -59,7 +57,7 @@ antidote bundle zsh-users/zsh-completions
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-export EDITOR=$BREWPATH/bin/vim
+export EDITOR=$HOMEBREW_PREFIX/bin/vim
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
@@ -82,8 +80,8 @@ fi
 # End of lines added by compinstall
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$BREWPATH/opt/nvm/nvm.sh" ] && \. "$BREWPATH/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "$BREWPATH/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$BREWPATH/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+[ -s "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" ] && \. "$HOMEBREW_PREFIX/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 export STARSHIP_CONFIG=~/Dev/dotfiles/starship.toml
 eval "$(starship init zsh)"
