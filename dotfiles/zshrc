@@ -4,7 +4,9 @@ DISABLE_COMPFIX="true"
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="20"
 ZSH_AUTOSUGGEST_USE_ASYNC=1
 
-export PATH=/opt/homebrew/opt/python@3.13/libexec/bin:$PATH
+BREWPATH='/opt/homebrew'
+
+export PATH=$BREWPATH/opt/python@3.13/libexec/bin:$PATH
 
 alias json="pbpaste | jq -C \".\""
 alias jsonout="pbpaste | jq \".\""
@@ -22,10 +24,16 @@ faws(){
     region="us-west-2"
     echo 'Logging into ' $region
   fi
-  : > ~/.aws/credentials; saml2aws login --session-duration=43200 --region $region --skip-prompt --skip-verify;grep -ilr 'Google-PlatformEng' ~/.aws/credentials | sed -i '' 's/region.*/region='$region'/' ~/.aws/credentials
+  : > ~/.aws/credentials; saml2aws login --session-duration=43200 --region $region --skip-prompt --skip-verify;grep -ilr 'Google-PlatformEng' ~/.aws/credentials | sed -i '' 's/region.*/region='$region'/' ~/.aws/credentials;export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain zignal --domain-owner 121286554335 --query authorizationToken --output text`
 }
 
 export AWS_PROFILE="Google-PlatformEng"
+export CLAUDE_CODE_USE_BEDROCK=1
+export AWS_DEFAULT_REGION=us-west-2
+export ANTHROPIC_MODEL='arn:aws:bedrock:us-west-2:121286554335:application-inference-profile/3i4ptd2b4d0t'
+export ANTHROPIC_DEFAULT_HAIKU_MODEL='arn:aws:bedrock:us-west-2:121286554335:application-inference-profile/0ls7cm40jo4m'
+export CLAUDE_CODE_MAX_OUTPUT_TOKENS=4096
+export MAX_THINKING_TOKENS=1024
 
 export ANTIDOTE_HOME=~/.cache/antidote
 source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
@@ -51,7 +59,7 @@ antidote bundle zsh-users/zsh-completions
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-export EDITOR=/usr/bin/vim
+export EDITOR=$BREWPATH/bin/vim
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
@@ -74,8 +82,8 @@ fi
 # End of lines added by compinstall
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+[ -s "$BREWPATH/opt/nvm/nvm.sh" ] && \. "$BREWPATH/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "$BREWPATH/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$BREWPATH/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 export STARSHIP_CONFIG=~/Dev/dotfiles/starship.toml
 eval "$(starship init zsh)"
