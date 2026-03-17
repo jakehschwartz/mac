@@ -4,6 +4,9 @@ DISABLE_COMPFIX="true"
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="20"
 ZSH_AUTOSUGGEST_USE_ASYNC=1
 
+if [[ -z "$HOMEBREW_PREFIX" ]]; then
+    export HOMEBREW_PREFIX=$(brew --prefix)
+fi
 export PATH=$HOMEBREW_PREFIX/opt/python@3.13/libexec/bin:$PATH
 
 alias json="pbpaste | jq -C \".\""
@@ -28,9 +31,9 @@ faws(){
 export AWS_PROFILE="Google-PlatformEng"
 export CLAUDE_CODE_USE_BEDROCK=1
 export AWS_DEFAULT_REGION=us-west-2
-export ANTHROPIC_MODEL='arn:aws:bedrock:us-west-2:121286554335:application-inference-profile/3i4ptd2b4d0t'
+export ANTHROPIC_MODEL='arn:aws:bedrock:us-west-2:121286554335:application-inference-profile/amsoyjbjv623'
 export ANTHROPIC_DEFAULT_HAIKU_MODEL='arn:aws:bedrock:us-west-2:121286554335:application-inference-profile/0ls7cm40jo4m'
-export CLAUDE_CODE_MAX_OUTPUT_TOKENS=4096
+export CLAUDE_CODE_MAX_OUTPUT_TOKENS=16000
 export MAX_THINKING_TOKENS=1024
 
 export ANTIDOTE_HOME=~/.cache/antidote
