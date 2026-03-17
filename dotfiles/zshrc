@@ -17,22 +17,6 @@ alias utc='zdump UTC'
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 alias mux='tmuxinator'
 
-faws(){
-  if [ "$1" = "prod" ]; then
-    region="us-east-1"
-    echo 'Logging into ' $region
-  else
-    region="us-west-2"
-    echo 'Logging into ' $region
-  fi
-  : > ~/.aws/credentials; saml2aws login --session-duration=43200 --region $region --skip-prompt --skip-verify;grep -ilr 'Google-PlatformEng' ~/.aws/credentials | sed -i '' 's/region.*/region='$region'/' ~/.aws/credentials;export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain zignal --domain-owner 121286554335 --query authorizationToken --output text`
-}
-
-export AWS_PROFILE="Google-PlatformEng"
-export CLAUDE_CODE_USE_BEDROCK=1
-export AWS_DEFAULT_REGION=us-west-2
-export ANTHROPIC_MODEL='arn:aws:bedrock:us-west-2:121286554335:application-inference-profile/amsoyjbjv623'
-export ANTHROPIC_DEFAULT_HAIKU_MODEL='arn:aws:bedrock:us-west-2:121286554335:application-inference-profile/0ls7cm40jo4m'
 export CLAUDE_CODE_MAX_OUTPUT_TOKENS=16000
 export MAX_THINKING_TOKENS=1024
 

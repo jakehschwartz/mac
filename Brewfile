@@ -1,3 +1,4 @@
+tap "databricks/tap"
 tap "deviceinsight/packages"
 tap "github/gh"
 tap "homebrew/cask"
@@ -34,29 +35,17 @@ brew "lima"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Isolated development environments using Docker
 brew "docker-compose", link: false
-# GNU multiple precision arithmetic library
-brew "gmp"
-# Validating, recursive, caching DNS resolver
-brew "unbound"
-# Subtitle renderer for the ASS/SSA subtitle format
-brew "libass"
-# Framework for layout and rendering of i18n text
-brew "pango"
-# Secure Reliable Transport
-brew "srt"
-# OCR (Optical Character Recognition) engine
-brew "tesseract"
-# Play, record, convert, and stream audio and video
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
-# Platform built on V8 to build network applications
-brew "node"
 # Terminal JSON viewer
 brew "fx"
 # Test automation tool that supports executable documentation
 brew "gauge"
+# GNU multiple precision arithmetic library
+brew "gmp"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -65,7 +54,9 @@ brew "git"
 brew "git-absorb"
 # Git extension for versioning large files
 brew "git-lfs"
-# GNU Pretty Good Privacy (PGP) package
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
@@ -75,34 +66,42 @@ brew "gobject-introspection"
 brew "guile"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 brew "libheif"
-# Tools and libraries to manipulate images in many formats
+# Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# CLI for managing Apache Kafka
+brew "kafkactl"
+# Subtitle renderer for the ASS/SSA subtitle format
+brew "libass"
 # Fast and flexible C++ library for working with OpenStreetMap data
 brew "libosmium"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Mac App Store command-line interface
 brew "mas"
 # Java-based project management
 brew "maven"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
 # Atlas CLI enables you to manage your MongoDB Atlas
 brew "mongodb-atlas-cli"
 # Manage multiple Node.js versions
 brew "nvm"
-# Object-relational database system
-brew "postgresql@14"
+# Fast, disk space efficient package manager
+brew "pnpm"
 # Convert bitmaps to vector graphics
 brew "potrace"
 # Run a query in psql and output the result as CSV
 brew "psql2csv"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
 # Generic machine emulator and virtualizer
 brew "qemu"
+# Software environment for statistical computing
+brew "r"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
 # Persistent key-value database, with built-in net interface
@@ -115,10 +114,14 @@ brew "ripgrep"
 brew "saml2aws"
 # Build tool for Scala projects
 brew "sbt"
+# Secure Reliable Transport
+brew "srt"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Command-line utility for Structurizr
 brew "structurizr-cli"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Programmatically correct mistyped console commands
 brew "thefuck"
 # Terminal multiplexer
@@ -137,10 +140,8 @@ brew "virtualenv"
 brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
-# A Commandline interface for Apache Kafka which provides useful features adapted from kubectl for Kubernetes.
-# Multiple kafka brokers can be configured in a config file and the active broker is also persisted within the config.
-# In addition kafkactl supports auto-completion for its commands as well as topic names.
-brew "deviceinsight/packages/kafkactl"
+# Command-line interface for the Databricks platform
+brew "databricks/tap/databricks"
 # Update your Scala dependencies interactively
 brew "kitlangton/tap/scala-update"
 # This package contains standard utilities for interacting with MongoDB.
@@ -153,11 +154,14 @@ brew "virtuslab/scala-cli/scala-cli"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # Tool to remove unnecessary files and folders from disk
 cask "cleanmymac"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
-cask "font-fira-code"
+cask "font-maple-mono"
+cask "font-maple-mono-nf"
 # Web browser
 cask "google-chrome"
 # Dedicated scratchpad for developers
@@ -170,26 +174,20 @@ cask "intellij-idea"
 cask "iterm2"
 # Syncs files between computers and MEGA Cloud drives
 cask "megasync"
-# CSV editor
-cask "modern-csv"
-# GUI for MongoDB
-cask "mongodb-compass@beta"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Simple application that will prevent iTunes or Apple Music from launching
 cask "notunes"
 # Collaboration platform for API development
 cask "postman"
-# Control your tools with a few keystrokes
-cask "raycast"
-# Team communication and collaboration software
-cask "slack"
 # Music streaming service
 cask "spotify"
 # Sync and backup service to Synology NAS drives
 cask "synology-drive"
 # Unpacks archive files
 cask "the-unarchiver"
+# Rust-based terminal
+cask "warp"
 # Web browser
 cask "wavebox"
 mas "Brother iPrint&Scan", id: 1193539993
