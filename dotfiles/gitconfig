@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [core]
 	editor = vim
-	excludesfile = /Users/macmini/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	ignorecase = false
 	pager = 
 	autocrlf = input
