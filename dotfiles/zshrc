@@ -7,7 +7,7 @@ ZSH_AUTOSUGGEST_USE_ASYNC=1
 if [[ -z "$HOMEBREW_PREFIX" ]]; then
     export HOMEBREW_PREFIX=$(brew --prefix)
 fi
-export PATH=$HOMEBREW_PREFIX/opt/python@3.13/libexec/bin:$PATH
+export PATH=$HOMEBREW_PREFIX/opt/python@3.14/libexec/bin:/usr/local/sbin:$PATH
 
 alias json="pbpaste | jq -C \".\""
 alias jsonout="pbpaste | jq \".\""
