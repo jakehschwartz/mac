@@ -89,6 +89,7 @@
     "ponytail@ponytail": true,
     "datadog@claude-plugins-official": true,
     "cellar@virtuslab-cellar": true,
+    "linear@anthropic-plugin-directory": true,
     "terse@terse": true
   },
   "extraKnownMarketplaces": {
