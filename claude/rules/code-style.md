@@ -1,1 +1,1 @@
-/Users/jakeschwartz/zignal-repos/scala-style-guide/README.md
+../../../../zignal-repos/scala-style-guide/README.md
