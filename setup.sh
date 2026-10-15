@@ -49,3 +49,10 @@ mkdir ~/Dev
 
 git config --global core.excludesfile ~/.gitignore_global
 
+
+# Claude Code
+mkdir -p ~/.claude
+for f in CLAUDE.md settings.json commands hooks rules aws-login.sh ponytail-statusline.sh; do
+  [ -e ~/.claude/$f ] && [ ! -L ~/.claude/$f ] && mv ~/.claude/$f ~/.claude/$f.bak
+  ln -sfn $PWD/claude/$f ~/.claude/$f
+done

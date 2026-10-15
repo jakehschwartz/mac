@@ -2,3 +2,6 @@
 .DS_Store
 .venv
 .bsp
+.claude/settings.local.json
+.claude/worktrees/
+.megamemory/

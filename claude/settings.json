@@ -1,0 +1,187 @@
+{
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "model": "opusplan",
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "idle_prompt",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Applications/Adrafinil.app/Contents/Helpers/adrafinil release $CLAUDE_CODE_SESSION_ID --tool claude-code"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Applications/Adrafinil.app/Contents/Helpers/adrafinil release $CLAUDE_CODE_SESSION_ID --tool claude-code"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$HOME/.claude/hooks/context-mode-cache-heal.mjs\""
+          }
+        ]
+      },
+      {
+        "matcher": "clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Applications/Adrafinil.app/Contents/Helpers/adrafinil acquire $CLAUDE_CODE_SESSION_ID --tool claude-code"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Applications/Adrafinil.app/Contents/Helpers/adrafinil release $CLAUDE_CODE_SESSION_ID --tool claude-code"
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Applications/Adrafinil.app/Contents/Helpers/adrafinil acquire --tool claude-code --subagent"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Applications/Adrafinil.app/Contents/Helpers/adrafinil release --tool claude-code --subagent"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Applications/Adrafinil.app/Contents/Helpers/adrafinil acquire $CLAUDE_CODE_SESSION_ID --tool claude-code"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "cellar@virtuslab-cellar": true,
+    "datadog@claude-plugins-official": true,
+    "ponytail@ponytail": true,
+    "superpowers@superpowers-marketplace": true,
+    "terse@terse": true,
+    "warp@claude-code-warp": true,
+    "whiteboard@devfast": true,
+    "linear@anthropic-plugin-directory": true,
+    "databricks@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-code-warp": {
+      "source": {
+        "source": "github",
+        "repo": "warpdotdev/claude-code-warp"
+      }
+    },
+    "context-mode": {
+      "source": {
+        "source": "github",
+        "repo": "mksglu/context-mode"
+      }
+    },
+    "devfast": {
+      "source": {
+        "source": "github",
+        "repo": "devdotfast/whiteboard"
+      }
+    },
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    },
+    "terse": {
+      "source": {
+        "source": "github",
+        "repo": "lowenbjer/claude-terse"
+      }
+    },
+    "virtuslab-cellar": {
+      "source": {
+        "source": "github",
+        "repo": "virtuslab/cellar"
+      }
+    },
+    "claude-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
+    }
+  },
+  "modelSettings": {
+    "claude-sonnet-5": {
+      "effortLevel": "high"
+    }
+  },
+  "tui": "fullscreen",
+  "autoCompactEnabled": true,
+  "terminalProgressBarEnabled": true,
+  "agentPushNotifEnabled": true,
+  "autoMode": {
+    "soft_deny": [
+      "$defaults",
+      "Bash(git push:*) — pushes from this checkout beyond the configured origin (politear/zignal-system-knowledge), since CLAUDE.md states this repo is read-only against the rest of the politear org",
+      "Write/Edit under local/ — repo docs mark this path as gitignored and reserved for person-level analysis that must never be committed or pushed"
+    ],
+    "environment": [
+      "### Org-wide",
+      "**Organization**: politear GitHub org (this repo is a read-only knowledge/index checkout of it)",
+      "**Cloud provider(s)**: None configured",
+      "**Repository visibility**: Private — politear/zignal-system-knowledge (per gh)",
+      "**Internal sharing / snippet hosting**: None configured — treat public paste/gist services as outside the trust boundary",
+      "**Secrets management**: None configured",
+      "**Default / protected branches**: Default branch `main`; no rulesets or protected branches listed by gh for politear/zignal-system-knowledge",
+      "**CI/CD deploy targets**: None configured",
+      "**Network posture**: None configured",
+      "**Host containment**: None configured — assume Claude Code runs on an ordinary developer machine or CI runner with open internet",
+      "**Source control**: politear/zignal-system-knowledge and its configured remote (origin) only — this repo is documented as read-only against the wider politear org (CLAUDE.md: \"Read-only against the org. Never push to politear repos or edit org state ... This repo itself is the one sanctioned remote.\")",
+      "**Trusted internal domains**: None configured",
+      "**Trusted cloud buckets**: labs-east-1 (config-derived — not a confirmed upload destination; uploads of local data still require confirmation)",
+      "**Key internal services**: None configured",
+      "**Internal package registry**: None configured",
+      "**Sensitive data locations & audiences**: `local/` directory in this repo — CLAUDE.md marks it as gitignored and reserved for person-level/identity/pre-decisional analysis (e.g. `local/identities.json`); never commit or push contents of `local/`; any file or store holding personal data, confidential business data, credentials, regulated data, or similarly sensitive material — share only with audiences cleared at the [named+specifics] bar",
+      "**Data retention / declassification**: None configured",
+      "**Sensitive remote targets**: any namespace, host, or container whose name carries `prod` or `production` as a whole word or name segment",
+      "**Protected deployment namespaces / environments**: None configured — fall back to the Sensitive remote targets heuristic",
+      "**Protected IaC scopes**: IAM, RBAC, networking, quota, and node-pool resources; anything whose name or tag carries `prod` or `production` as a whole word or name segment",
+      "### User-specific",
+      "**Primary use of Claude Code**: software development / org knowledge-base maintenance for the politear GitHub org (repo bootstrapping, team-mapping docs, research notes)",
+      "**Trusted repo**: politear/zignal-system-knowledge (this repo, working directory) and its origin remote — private, so confidential material native to this repo is fine to commit/push here, but content ported in from other politear repos or outside sources is not this repo's own work",
+      "**Org-specific CLIs**: None configured",
+      "routine under `docs/research/` and `docs/doctrine/` prefixes: append-style edits are the repo's documented normal workflow; `local/` is explicitly excluded from any push (see preflight-push.sh)"
+    ]
+  }
+}
